@@ -77,7 +77,7 @@ Saiba mais sobre a comunidade. É uma boa idéia manter-se atento em sites de no
 
 
 
-## Referencias
+## Complementar
 
 <dl>
   <dt><a href="https://www.gnu.org/philosophy/selling.html">Vender Software Livre</a></dt>
