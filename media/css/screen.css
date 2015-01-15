@@ -1355,7 +1355,7 @@ body {
   background: #f3f3f3;
 }
 a {
-  color: #318fe8;
+  color: #138611;
   text-decoration: none;
 }
 a:hover {
@@ -1433,7 +1433,7 @@ a:hover {
   color: #70b1ef;
 }
 #top-navigation a.active {
-  background: #70b1ef;
+  background: #138611;
   color: #fff;
 }
 #content {
