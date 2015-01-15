@@ -1496,7 +1496,6 @@ a:hover {
   border: none;
 }
 #post-listing .post-title:before {
-  content: "λ";
   font-family: 'Droid Serif', serif;
   color: #999;
 }
