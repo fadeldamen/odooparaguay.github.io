@@ -81,20 +81,18 @@ Saiba mais sobre a comunidade. É uma boa idéia manter-se atento em sites de no
 
 <dl>
   <dt><a href="https://www.gnu.org/philosophy/selling.html">Vender Software Livre</a></dt>
-
+  <br/>
   <dt><a href="http://lwn.net/">Lwn.net</a></dt>
-
+  <br/>
   <dt><a href="http://www.phoronix.com/scan.php?page=home">Phoronix</a></dt>
-  <dd>Gilad Bracha, Peter Ahe, Vassili Bykov, Yaron Kashai, and Eliot Miranda</dd>
-
+  <br/>
   <dt><a href="http://www.ibm.com/developerworks/br/library/os-newlight/">Software livre em uma nova luz</a></dt>
-  <dd>IBM Developer Works</dd>
-
+  <br/>
   <dt><a
   href="https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/mais_uma_forma_de_ganhar_dinheiro_com_sofware_livre4?lang=en">Mais uma forma de ganhar dinheiro com Software Livre</a></dt>
-
+  <br/>
   <dt><a href="https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/software_livre_comercial_ou_uma_estrat_c3_a9gia_de_coexist_c3_aancia14?lang=en">Software livre, comercial ou uma estratégia de coexistência?</a></dt>
-
+  <br/>
   <dt><a href="https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/relacoes_de_poder_na_comunidade_do_software_livre?lang=en">Relações de poder na comunidade do Software Livre</a></dt>
 
 </dl>
