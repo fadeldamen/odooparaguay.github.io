@@ -1,11 +1,11 @@
-name: Sorella's Basement
+name: Lobocode Freedom
 pygments: true
 markdown: kramdown
 
 navigation:
 - text: Blog
   url: /index.html
-- text: About
+- text: Sobre
   url: /about/index.html
-- text: Hacks
+- text: Projetos
   url: /projects/index.html
