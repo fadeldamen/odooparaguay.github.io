@@ -1418,7 +1418,7 @@ a:hover {
 }
 #top-navigation a {
   text-decoration: none;
-  color: #888;
+  color: #5E5E5E;
   padding: 0.3em 1em 0.5em 1em;
   font-size: 1.8em;
   font-family: 'Montserrat', sans;
@@ -1430,7 +1430,7 @@ a:hover {
   transition: all 0.3s ease-out;
 }
 #top-navigation a:hover {
-  color: #70b1ef;
+  color: #89D55E;
 }
 #top-navigation a.active {
   background: #138611;
@@ -1506,7 +1506,7 @@ a:hover {
   font-family: 'Droid Serif', serif;
   margin: 0.5em 0px 0.5em 0px;
   font-size: 1.5em;
-  color: #aaa;
+  color: #5E5E5E;
 }
 #post-listing .post-subtitle:before {
   content: "—";
