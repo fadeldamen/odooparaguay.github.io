@@ -1,187 +1,34 @@
 ---
 layout: post
 title: Trabalhando com software livre
-snip:  Refutando quem veemente afirma que não é possível 
+snip:  Pensando fora da caixa.
 ---
 
-The functional programming community can be, sometimes, daunting. While we are
-pursuing noble goals, of an expressive computational model that can enforce
-correctness-by-design, more often than not we get too caught on the little
-details of the known ways to achieve such, and end up considering that to be
-the one and only true way. Yes, I'm talking about the idolisation of static
-typing.
+## Dicas importantes
 
-I, too, was one of the people in the cult of Martin-Lof. One of the proponents
-of static typing above all. But not anymore. After watching so many talks by
-Gilad Bracha, such as
-[Deconstructing Functional Programming](http://www.infoq.com/presentations/functional-pros-cons),
-I've started to wonder if types might actually be as important as I once
-considered them. Turns out, it isn't **that** important (though they allow some
-pretty interesting properties), which is why I've decided to drop static typing
-from my programming language, Harmonia.
+Muitos de programadores desejam começar a construir um projeto de software livre mas não tem certeza de como as coisas funcionam. Vou deixar então aqui algumas dicas de ouro para que você não comece de maneira equivocada:
 
-In this article I explain why static typing is not the one true way, as many
-type theorists believe it to be, and show that there are ways to enforce
-correctness-by-design otherwise. I also show that by dropping static types, a
-range of interesting properties become available for the language designer, in
-the quest to make the language safer and easier to use.
+Por exemplo, é altamente recomendável que você não comece com o seu próprio projeto de software livre. Muita gente quer escrever software livre, então a primeira coisa que fazem é rabiscar algum código, colocar sob a GNU/GPL, e lançar a versão 0.0.1 alpha. De fato fazer isto é demasiadamente divertido e, possivelmente, educacional, no entanto isso pode ser também improdutivo. Eis o porquê:
 
+É mais vantajoso e educativo estudar e aprender com código de outras pessoas pela adição de pequenas características aqui e ali, ou por correção de alguns bugs. A maioria dos projetos tem um bug tracker; por exemplo, no projeto Gnome temos bugs.gnome.org , no Debian e no Fedora Project temos o mesmo sistema , etc. Encontre um bug no tracker, e procure aprender por corrigi-lo. Ou adicionar um recurso que você está querendo. Obviamente, também é mais útil limpar o código existente do que lançar um projeto sozinho e que provavelmente em pouco tempo fique obsoleto ou pior, nem chegue a terminar.
 
-## Table of Contents
- *  TOC
-{:toc}
+Além disso, podemos tirar por alto que quase sempre, alguém já está trabalhando em tudo o que você quer escrever; é melhor terminar um projeto do que ter dois projetos inacabados. Lhe garanto que 95% dos projetos de software livre desaparecem no esquecimento antes de se tornar útil. Do ponto de vista de educacional, e também do ponto de vista da fama que você pode adquirir, inevitavelmente você precisará de pessoas para lhe ajudar a manter a coisa funcionando. Não desperdice tempo tentando reinventar a roda.
 
+Vamos supor por exemplo, que você tenha alguma experiência hacking e há um app interessante que ninguém está trabalhando, neste caso, definitivamente comece a fazer algo. Se você começar um projeto, a coisa mais importante é planejar brevemente e escrever o código. Você tem que codificar o suficiente para fazer o app útil praticamente por si mesmo; isso pode levar meses ou anos de trabalho solitário, a menos que alguma alma caridosa decide ajudar com o seu app em vez de começar o seu próprio. Consegue ver como funciona?
 
-## 1. Introduction
+Geralmente você tem que corrigir erros de forma rápida e, manter as coisas interessantes. Quando se trata de escrever um aplicativo livre, geralmente requer uma enorme quantidade de trabalho. Portanto, seja um self-starter. Muitas pessoas postam sua intenção de escrever aplicação X, ou anunciar a versão 0.0.1 alpha, e, em seguida, sequer começam o projeto. Ou seja, independente de quem fechar a ideia contigo, se propor a lhe ajudar, comece o projeto. No início, não haverá muita resposta até que você tenha usuários. E não haverá usuários até que você escreva código. Então você executando a sua própria determinação.
 
-Harmonia is a programming language designed for writing domain specific
-embedded languages, and also happens to be a general purpose programming
-language. Since I don't believe *general purpose* actually exists in
-programming, and because coordinating and composing different domain specific
-languages is usually a pain, the focus is on DSELs.
+Use as listas de discussão. Se você tiver alguma dúvida, pergunte na lista ( pouquíssimas pessoas tem o hábito de usar a mailing list no Brasil ). Se você enviar perguntas na lista, a probabilidade de haver resposta e ajuda de desenvolvedores, é absurda. Além do que, muitos provavelmente estarão aprendendo a resolve o mesmo problema que você. As listas de discussão e documentação são criados pelos desenvolvedores para apoiar um grande número de usuários. Lembre-se que neste ramo, todo mundo é um voluntário, mas isto não quer dizer que não existirá uma consultoria paga ( um melhor acompanhamento ) e não tem nada de errado nisto.
 
-Lisps are good at DSELs, as is Haskell. But Haskell is also good at
-composition, unlike most Lisps. I used to believe that such property was a
-direct consequence of having a rich and expressive static type system, since
-composition is all about design constraints, thus this was the original design
-of Harmonia: a statically typed programming language, with compile-time (not
-turing complete) macros, and a syntax that would make it easy to write
-languages on top. These languages would share the same semantics and runtime,
-and would have their composition enforced through types.
+Geralmente, ninguém estará no comando. Muitas vezes as pessoas esperam alguém para estar no comando de projetos de software livre; ou se espera obter uma atribuição, para que tudo ocorra bem mediante o prazo estipulado pela equipe. Na maioria dos casos, simplesmente não funciona dessa maneira embora, provavelmente, haverá muitas sugestões. O foco deve ser este : Mergulhe no projeto e faça acontecer.
 
-However, there are other programming languages that, despite not having a
-static type system, are good at DSELs and composition. Newspeak is an example
-of such. In fact, for some purposes, Newspeak happens to be better at
-composition than Haskell! -- theoretically, at least. I was thrilled to learn
-more about them, and about how they solve the correctness-by-design problem. I
-describe my, surprising even for me, findings in this article.
+Se você passar 3 meses escrevendo algum novo recurso interessante, e depois descobrir que o mantenedor odeia a idéia, e não terá patch, ou descobrir que seu patch não se aplica para a última versão de desenvolvimento, ou até descobrir que outra pessoa fez o mesmo trabalho, provavelmente você ficará puto. Se você está planejando trabalhar em algo, seja direto e avise ao mantenedor sobre o assunto. A maioria dos mantenedores são bem céticos com algumas propostas que surgem. É interessante você saber conversar e melhor, saber prototipar, projetar a sua ideia.
 
+Seja sábio, saiba esperar o momento certo. A tentação de se juntar a uma lista de discussão e começar a comentar sobre tudo, geralmente é bem forte. Mas não se torne um programador back-seat. Ou seja, prefira contribuir se você tiver experiências relevantes, descobrir como reproduzir o bug, especialidades na área, saber a resposta para a pergunta etc.. Caso contrário, é sempre uma boa idéia se esconder um pouco em um fórum antes de você começar a postar, observar e aprender como as coisas funcionam antes de qualquer atitude que você venha a ter.
 
-## 2. Why correctness-by-design?
+Entenda de direitos autorais, patentes, licenças, marcas, e assim por diante. Você tem que ser um pouco advogado para se envolver em software livre. Isto significa que você tem a responsabilidade de educar-se. Tradicionalmente, uma maneira de aprender é observar os exaustivos flamewars sobre o assunto no foróum gnu.misc.discuss. A maneira mais rápida de se informar, é lendo o [gnu.org](http://www.gnu.org). Evite publicar qualquer coisa sobre questões jurídicas, se você não compreende suficientemente ainda.
 
-One of the major goals of Harmonia is to be able to guide the user towards a
-correctness-by-design approach. This means that a program that is valid in the
-language, should also be a correct program. The language should make an effort
-of rejecting programs that can be wrong, and otherwise make them difficult to
-write. The path of least resistance should be that which leads to safe programs
-that do what they were designed to do.
-
-While this noble goal might seem easy on the surface, in truth it's difficult
-to conciliate correctness and expressiveness, for the more power you give to
-the user, the less control you have over the ways and outcomes of using that
-power. It's one of the reasons why pure functional programming is powerful,
-since it eliminates a class of errors that would otherwise be possible when you
-break referential transparency.
-
-There is not a single answer to this problem, instead all of the features in
-the language must contribute towards this goal. For example, allowing
-computations that depend on the order in which a particular program was written
-makes it difficult to achieve correctness, since the order says nothing about
-the nature and dependencies of the computation in a way that can be easily
-analysed by a static tool or the programmers themselves. On the other hand,
-writing a program with explicit dependencies on data and their cases, makes it
-easy to analyse when something should happen or not, by both a static tool and
-the programmer. For example, a static tool could enforce that all possible
-cases of a particular data structure should be handled by the programmer,
-giving less room for human errors.
-
-Above all features, static typing proponents contend that typing is able to
-enforce the most correctness properties. It's not difficult to see this, since
-types can be used as a way of enforcing constraints on valid values throughout
-the program, and how they're supposed to flow from one place to another. Plus,
-with dependent types (or even a less rich kind of type system), it's possible
-to prove many valuable properties about a program.
-
-
-## 3. Types versus syntactical constraints
-
-So, types are not the only thing we can use to enforce design constraints and
-get correctness-by-design, as shown by Smalltalk dialects. We can also use
-syntactical constraints to, not only enforce these properties, but guide the
-user towards them.
-
-If we were to compare, for example, Haskell and Smalltalk, in terms of
-syntactical constraints, we would see that the former makes no effort to guide
-the user towards valid compositions of terms at this level, since there are
-only curried functions and function application. Consider the following
-example, where one is expected to sort a list of things descendingly, according
-to its weight, and display the title of the first 2 items:
-
-{% highlight hs %}
-import Data.List
-
-data Thing = Thing { title  :: String
-                   , weight :: Int
-                   } deriving (Show)
-
-on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
-on f g a b = f (g a) (g b)
-
-things = [
-  Thing { title = "Foo", weight = 3 }
-, Thing { title = "Bar", weight = 6 }
-, Thing { title = "Baz", weight = 1 }
-, Thing { title = "Qux", weight = 7 }
-]
-
-mostImportant :: [Thing] -> [Thing]
-mostImportant = sortBy (flip compare `on` weight)
-
-main = putStrLn $ show $ take 2 $ mostImportant things
-{% endhighlight %}
-
-As you can see, since all functions in Haskell are essentially `a -> b`, you can
-combine them in every which way syntactically. It's only the types that provide
-compositional constraints, and these are not visible, for example, at the call
-site (not in a text editor, at least). In contrast, Smalltalk languages provide
-compositional constraints at the call-site, in exchange for the compositional
-power of curried functions (though it's arguable if this is a problem if we
-consider a simple syntax). Consider the following example in untyped Harmonia:
-
-{% highlight hs %}
-module Main for: Platform where
-
-  -- Record syntax currently looks too funny in Harmonia,
-  -- so it'll probably change later eh
-  things = [[: title => "Foo", weight => 3 :]
-           ,[: title => "Bar", weight => 6 :]
-           ,[: title => "Baz", weight => 1 :]
-           ,[: title => "Qux", weight => 7 :]
-           ]
-
-  print = Platform IO print
-
-  xs most-important = xs sort-by: { l r | r weight compare-to: l weight }
-
-  main = things most-important |> _ take: 2 |> _ show |> _ print
-
-end
-{% endhighlight %}
-
-The Harmonia counterpart provides much more guidance to the programmer on the
-way things may be combined, thanks to the keyword syntax, and the use of
-explicit partial application instead of curried functions. The symmetry between
-curry/uncurry is lost, but the composition power for valid compositions is
-still maintained, which is what matters in the end.
-
-
-## 4. Conclusion
-
-Surely, if we were to consider only the development of programs using text
-editors and a compiler, types will give you a much faster feedback when you get
-something wrong. But we don't need to confine our design space to such
-tools, and dynamic typing provides some interesting benefits as far as tools
-for interactive development are concerned, given they're easier to work with.
-
-Whether an interactive development can take the role of a static type system in
-aiding the programmer designing correct programs remains to be seen. But I'm
-confident that the trade-offs amount to comparable compositional power and
-constraints, albeit through entirely different paths. And for Harmonia, I'd
-like to try walking down the dynamic typing route with a powerful interactive
-development environment, which most of the functional programming community
-doesn't seem to be interested in.
-
-Oh, by the way, have a nice April's Fools :)
+Saiba mais sobre a comunidade. É uma boa idéia manter-se atento em sites de notícias, como LinuxToday , LWN Slashdot, Phoronix e também sites relacionados aos projetos específicos que você está envolvido. Um bom livro sobre a história da comunidade é chamado Hackers , escrito por Steven Levy além do já mencionado site do gnu.
 
 
 
