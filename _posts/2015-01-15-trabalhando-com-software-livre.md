@@ -4,11 +4,11 @@ title: Trabalhando com software livre
 snip:  Pensando fora da caixa.
 ---
 
-Existem muitos mitos sobre o software livre e, talvez, o mais comum é que trabalhar com desenvolvimento de software livre não rende, não dá dinheiro, não gera folha. O fato é que isso é um tanto relativo.Alguns ganham dinheiro suficiente para sobreviver, enquanto outros ganham verdadeiras fortunas no ramo. Ou seja, depende mais do tipo de pessoa, da oportunidade, do perfil e ambição de cada profissional. Mas deixando de lado a conversa fiada, vamos que nos interessa:
+Existem muitos mitos sobre o software livre e, talvez, o mais comum é que trabalhar com desenvolvimento de software livre não rende, não dá dinheiro, não gera folha. O fato é que isso é um tanto relativo.Alguns ganham dinheiro suficiente para sobreviver, enquanto outros ganham verdadeiras fortunas no ramo. Ou seja, depende mais do tipo de pessoa, da oportunidade, do perfil e ambição de cada profissional. Mas deixando de lado a conversa fiada, vamos ao que interessa:
 
 ## Oferta de suporte e serviço
 
-Você pode vender sua experiência para os usuários na forma de serviços como a de treinamento e consultoria por exemplo. Em suma, clientes economizam tempo e frustração. A maioria das empresas valorizam o seu tempo mais do que o dinheiro, que é um grande caminho a percorrer, especialmente para software baseado em servidores. Instalação e configuração pode ser cobrada e é um ótimo caminho a se pensar e seguir.
+Você pode vender sua experiência para os usuários na forma de serviços como a de treinamento e consultoria por exemplo. Em suma, clientes economizam tempo e frustração. A maioria das empresas valorizam o seu tempo mais do que o dinheiro, que é um grande caminho a percorrer, especialmente para software baseado em servidores. Instalação e configuração pode ser cobrado e é um ótimo caminho a se pensar e seguir.
 
 ## Compiladores
 
@@ -21,21 +21,35 @@ Apesar de haver compiladores livres, você pode sempre encontrar potenciais usu�
 
 ## Documentação
 
-Muitos projetos de OSS (open source) e livre, incluem documentação de graça e não há nada de errado com isso. No entanto, saber elaborar uma boa documentação é uma mão de obra incrivelmente valioso, tanto que pode ser cobrado um preço alto por ela. Para aqueles que não querem pagar, sempre podem vasculhar o próprio código fonte.
+Muitos projetos de software livre, incluem documentação de graça e não há nada de errado com isso. No entanto, saber elaborar uma boa documentação é uma mão de obra incrivelmente valiosa, tanto que pode ser cobrado um preço alto por ela. Para aqueles que não querem pagar, sempre podem vasculhar o próprio código fonte.
 
 ## Tutoriais
 
 Você pode livremente criar um espaço como um blog ou website por exemplo, e vender treinamento, tutoriais em audio/vídeo ou texto.
 
-## Plugins
+## Plugins / Add-ons
 
-Você pode também desenvolver soluções pagas para um determinado software livre. É perfeitamente possível e aceitável que você o faça. É um ramo muito interessante em vista que toda a base de código já está disponível na maioria dos casos de graça.
+Você pode também desenvolver soluções pagas para um determinado software livre. É perfeitamente possível e aceitável que você o faça. É um ramo muito interessante em vista que toda a base de código já está disponível na maioria dos casos de graça. Embora o software de base de código aberto pode ser livre, você pode criar e vender os add-ons que agregam valor. Por exemplo, o código-fonte aberto da plataforma de blogs WordPress inclui suporte para "temas" ou layouts visuais. Há muitos temas livres disponíveis de qualidade variável. Várias empresas têm vindo ao longo de anos, como WooThemes e AppThemes , que vendem temas altamente polidas para WordPress.
 
 ## Crowdfunding
 
 O financiamento coletivo (crowdfunding) consiste na obtenção de capital para iniciativas de interesse coletivo através da agregação de múltiplas fontes de financiamento, em geral pessoas físicas interessadas na iniciativa. O termo é muitas vezes usado para descrever especificamente ações na Internet com o objetivo de arrecadar dinheiro para artistas, jornalismo cidadão2 , pequenos negócios e start-ups, campanhas políticas, iniciativas de software livre, filantropia e ajuda a regiões atingidas por desastres, entre outros.
 
+Com esta modalidade de financiamento o custo de desenvolvimento é compartilhado entre várias pessoas. Se o software é útil para muitas pessoas, então as chances de cooperação para financiar o seu desenvolvimento irá aumentar. Uma vez que o software está pronto e pode ser usado por muitas pessoas, cada usuário pode contratar um desenvolvedor para pequenas modificações, melhorias ou corrigir bugs. A melhor parte é que todo mundo se beneficia com o trabalho de todo mundo, como uma comunidade; FOSS é construído em cima do que já existe.
 
+## Financiamento FOSS
+
+Se alguém ou uma empresa precisar de um software personalizado, você poderá desenvolver esta solução e vender sem problema algum ( a depender da licença ) quando a licença barra a venda do software em sí, nada tem impede em cobrar o tempo gasto no processo de desenvolvimento da solução. O software irá pertencer a você e você estará livre para vendê-lo ou compartilhá-lo com os outros, ou não (você nunca será forçado a compartilhar, você pode muito bem mantê-lo por si mesmo). Ao desenvolver FOSS, os desenvolvedores têm à sua disposição um enorme repositório de software preexistente que podem reutilizar, tirando a necessidade de começar do zero e podendo reaproveitar linhas de código já criadas.
+
+## Marketing
+
+Publicidade custa caro. Feiras e eventos caros. Muitas empresas vêem o software livre como uma alternativa mais barata. Liberando a totalidade ou parte do produto com o código de fonte aberto atrai usuários que irão utilizar o produto e avaliar o que ele faz de melhor. O produto fala por si e traz os usuários para sí, ou seja, ele se vende, então lidar com publicidade na área, é algo muito lucrativo.
+
+É importante lembrar que quando você ou sua empresa publicam um Software Livre você também está anunciando suas habilidades. Pessoas que apreciam o seu software podem considerar sua contratação (ou seus funcionários) para desenvolver outros programas. Em vez de investir em propaganda, você pode investir na programação e nas coisas que você faz de melhor. É importante frizar também o importante marketing que fora feito no Blender a um tempo atrás. So abriram o código-fonte do blender depois de pedidos de doação, investimentos da comunidade para que tudo correce como hoje.
+
+## Doações
+
+Muitos projetos de software livre ganham dinheiro exclusivamente através de doações. Isso deixa o usuário livre para dar alguma coisa ou simplesmente nada. O bacana dessa modalidade, é que não há nenhuma cobrança quanto ao retorno de melhoria ou evolução do software. Ou seja, tudo é feito de maneira voluntária.
 
 ## Dicas importantes
 
@@ -66,54 +80,21 @@ Saiba mais sobre a comunidade. É uma boa idéia manter-se atento em sites de no
 ## Referencias
 
 <dl>
-  <dt><a href="http://lucacardelli.name/Papers/TypeSystems.pdf">Type Systems</a></dt>
-  <dd>Lucca Cardelli</dd>
+  <dt><a href="https://www.gnu.org/philosophy/selling.html">Vender Software Livre</a></dt>
 
-  <dt><a href="http://www.haskell.org/definition/haskell98-report.pdf">Haskell 98 Language and Libraries: The Revised Report</a></dt>
-  <dd>Simon Peyton Jones</dd>
+  <dt><a href="http://lwn.net/">Lwn.net</a></dt>
 
-  <dt><a href="http://bracha.org/newspeak.pdf">The Newspeak Programming Platform</a></dt>
+  <dt><a href="http://www.phoronix.com/scan.php?page=home">Phoronix</a></dt>
   <dd>Gilad Bracha, Peter Ahe, Vassili Bykov, Yaron Kashai, and Eliot Miranda</dd>
 
-  <dt><a href="http://bracha.org/newspeak-modules.pdf">Modules as Objects in Newspeak</a></dt>
-  <dd>Gilad Bracha, Peter von der Ahé, Vassili Bykov, Yaron Kashai, William Maddox, and Eliot Miranda</dd>
+  <dt><a href="http://www.ibm.com/developerworks/br/library/os-newlight/">Software livre em uma nova luz</a></dt>
+  <dd>IBM Developer Works</dd>
 
   <dt><a
-  href="http://www.schemeworkshop.org/2011/papers/Scholliers2011.pdf">Computational Contracts</a></dt>
-  <dd>Christophe Scholliers, Éric Tanter, and Wolfgang de Meuter</dd>
+  href="https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/mais_uma_forma_de_ganhar_dinheiro_com_sofware_livre4?lang=en">Mais uma forma de ganhar dinheiro com Software Livre</a></dt>
 
-  <dt><a href="http://dl.acm.org/citation.cfm?id=2162141">Epigram: Practical
-  Programming with Dependent Types</a></dt>
-  <dd>Conor McBride</dd>
+  <dt><a href="https://www.ibm.com/developerworks/community/blogs/rationalbrasil/entry/software_livre_comercial_ou_uma_estrat_c3_a9gia_de_coexist_c3_aancia14?lang=en">Software livre, comercial ou uma estratégia de coexistência?</a></dt>
 
-  <dt><a href="http://www.mpi-sws.org/~rossberg/f-ing/">F-Ing Modules</a></dt>
-  <dd>Andreas Rossberg, Claudio Russo, and Derek Dreyer</dd>
+  <dt><a href="https://www.ibm.com/developerworks/community/blogs/752a690f-8e93-4948-b7a3-c060117e8665/entry/relacoes_de_poder_na_comunidade_do_software_livre?lang=en">Relações de poder na comunidade do Software Livre</a></dt>
 
-  <dt><a
-  href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.6996">Types, Abstraction, and Parametric Polymorphism, Part 2</a></dt>
-  <dd>QingMing Ma, and John C. Reynolds</dd>
-
-  <dt><a
-  href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.67.5276">A theory of type polymorphism in programming</a></dt>
-  <dd>Robin Milner</dd>
-
-  <dt><a
-  href="http://web.cs.wpi.edu/~cs4536/c12/milner-damas_principal_types.pdf">Principal type-schemes for functional programs</a></dt>
-  <dd>Luis Damas, and Robin Milner</dd>
-
-  <dt><a
-  href="http://haskell.cs.yale.edu/wp-content/uploads/2011/01/DSEL-Little.pdf">Domain Specific Languages</a></dt>
-  <dd>Paul Hudak</dd>
-
-  <dt><a
-  href="http://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf">Why Functional Programming Matters</a></dt>
-  <dd>John Hughes</dd>
-
-  <dt><a
-  href="http://www.infoq.com/presentations/functional-pros-cons">Deconstructing Functional Programming</a></dt>
-  <dd>Gilad Bracha</dd>
-
-  <dt><a
-  href="http://www.infoq.com/presentations/past-present-future-programming">Onward! -- Does Thought Crime Pay?</a></dt>
-  <dd>Gilad Bracha</dd>
 </dl>
