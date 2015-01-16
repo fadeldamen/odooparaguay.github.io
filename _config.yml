@@ -3,7 +3,7 @@ pygments: true
 markdown: kramdown
 
 navigation:
-- text: Blog
+- text: Home
   url: /index.html
 - text: Sobre
   url: /about/index.html
