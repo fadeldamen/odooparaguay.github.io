@@ -26,3 +26,10 @@ $ cd myvim
 $ sudo ./install                    
 #+END_SRC
 
+
+#+BEGIN_SRC lua
+  match n
+  | 0   => 0;
+  | 1   => 1;
+  | n:_ => + (fib (- n 1)) (fib (- n 2));
+#+END_SRC
