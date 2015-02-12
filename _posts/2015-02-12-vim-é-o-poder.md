@@ -3,7 +3,7 @@ layout: post
 title: Vim é o poder
 snip:  IDE pra quê? 
 ---
-
+teste
 O Vim é um editor de texto extremamente configurável, criado para permitir a edição de textos de forma eficiente. Também é um melhoramento do editor vi, um tradicional programa dos sistemas UNIX. Possui uma série de mudanças em relação a este último. O próprio slogan do vim é "Vi IMproved". Ou seja, Vi Melhorado. O Vim é tão conhecido e respeitado entre programadores, e tão útil para programação, que muitos o consideram uma verdadeira IDE. 
 
 Sua primeira versão foi lançada ainda em meados de 1988 e veio ao público a partir de 1991 já que anteriormente seu desenvolvedor *Bram Moolenaar* estava produzindo uma versão clone do VI mais elaborada do que as existêntes na época. Hoje, com apoio de milhares de desenvolvedores, o Vim é capaz de reconhecer mais de 400 sintaxes de linguagens de programação e marcação, possui mapeamento para teclas, macros, abreviações, busca por expressões regulares, entre outras facilidades. Conta com uma comunidade bastante atuante e é, ao lado do GNU Emacs um dos editores mais usados nos sistemas GNU, mas pode ser também instalado em outros sistemas, como o Windows e o Mac e BSD.
