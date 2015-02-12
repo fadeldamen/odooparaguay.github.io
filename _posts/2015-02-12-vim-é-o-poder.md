@@ -37,7 +37,6 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 * CtrlP
 * Syntastic
 * Multiuser
-kk 
 
  
 ## Instalação e configuração ##
