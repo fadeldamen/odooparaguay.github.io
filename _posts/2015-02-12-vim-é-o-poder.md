@@ -40,15 +40,6 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 
 
-
-
-
-
-
-
-
-
-
  
 ## Instalação e configuração ##
 O VI está disponível para muitos sistemas: AmigaOS, Atari MiNT, BeOS, DOS, MacOS, NextStep, OS/2, OSF, RiscOS, SGI, UNIX, VMS, Win16 + Win32 (Windows95/98/00/NT) - e especialmente FreeBSD e GNU/Linux.  :-). Sua instalação não é necessária em muitos casos havendo apenas a necessidade de instalar a sua versão melhorada "o VIM". Para tal, basta apenas setar o comando correspondente ao seu gerenciador de pacotes e concluir com a instalação. Além disso, existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração pessoal do meu vim. E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
