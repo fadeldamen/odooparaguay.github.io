@@ -16,9 +16,22 @@ O Vim vem com 400+ arquivos de sintaxe para a coloração de texto em linguagens
 
 Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessidades como desenvolvedor? bem, o VIM oferece esta proposta. Por padrão, o VIM vem igual para todos os usuários. Exceto quando você resolve modificar o seu próprio ```.vimrc``` file. Ou seja, existe um arquivo com suas próprias configurações ( seja alguma mudança de hotkey "tecla atalho", configuração de comportamento específico, plugins, funções, modelos e padrões estabelecidos por você). Além disso, ao meu ver, tem também a grande vantagem de rodar muito leve em qualquer máquina ( até em servidores que não contém servidor gráfico rodando). Se você não tem grana para ter uma máquina potente, ou está achando os preços muito elevados para eletro-eletrônicos no Brasil, compre uma máquina simples e poderá programar, editar textos, formatar textos no VIM tranquilamente.
 
+## Porque as pessoas ainda usam o VIM? ##
+
+A idéia de usar um editor-oriented comando modal pode parecer um pouco anacrônico, à primeira vista, mas rico conjunto de recursos do Vim e extensibilidade profunda fizeram dele uma escolha duradoura entre os usuários avançados. É ainda um editor altamente popular, especialmente entre os programadores, desenvolvedores da Web, cientistas e administradores de sistema. O escopo completo de vantagens do Vim são difíceis de articular a usuários que não estão familiarizados com o editor. Embora uma explicação completa de como Vim funciona está além do escopo deste artigo, a seguir, uma pequena variedade de recursos úteis:
+
+* **Interface Flexível para  múltiplos documentos :** No Vim, seus arquivos e documentos não salvos são referidos como buffers. O editor dá-lhe uma enorme quantidade de controle sobre como seus buffers serão exibidos na tela. Você pode horizontalmente e verticalmente dividir a janela como e quantas vezes desejar para que você possa ver muitos buffers ao mesmo tempo. Você também pode organizar opcionalmente conjuntos de layouts divididas em abas. Layouts estes que podem ser preservados por uma  "sessão" e restaurá-lo mais tarde.
+
+* **Macros :** O Vim tem um sistema de macro que permite gravar teclas pressionadas para uma reprodução posterior. Macros são trivialmente fáceis de criar a partir do teclado e pode consistir de operações em vários modos. Macros são armazenadas em registros, assim como os itens da área de transferência. Como tal, eles também podem persistir entre as utilizações da aplicação.
+
+* **Recursos de pesquisa extremamente poderosos :** O Vim tem ferramentas muito sofisticadas para a busca automátizada e substituição, incluindo suporte extensivo para expressões regulares. Ele também tem uma versão embutida do comando grep, que se integra de modo extremamente conveniente ao recurso de buffer do Vim que mostra uma lista de resultados e permite-lhe saltar convenientemente entre eles.
+
+* **Extensibilidade extensamente rica :** Vim é prodigiosamente programável e altamente propício para a automação. Ele tem sua própria linguagem de script nativa com os tipos de contentores, um modelo único de escopo de variáveis, e um monte de funcionalidades específicas. Também foi construído com mecanismos de script e ligações que lhe permitem ser personalizado através numerosas linguagens de programação convencionais, incluindo Perl, Python, Ruby, Tcl, e Lua. Vim também pode ser estendido para adicionar destaque de sintaxe para idiomas adicionais ou criar esquemas de cores personalizadas. Usuários amplamente compartilham seus scripts através de vários repositórios online. Como já demonstrado anteriormente , a instalação de alguns plugins simples e scripts pode dar Vim muitas das capacidades avançadas de um ambiente de desenvolvimento integrado.
+
+
 ## Instalação e configuração ##
 
-O VI está disponível para muitos sistemas: AmigaOS, Atari MiNT, BeOS, DOS, MacOS, NextStep, OS/2, OSF, RiscOS, SGI, UNIX, VMS, Win16 + Win32 (Windows95/98/00/NT) - e especialmente FreeBSD e Linux.  :-). Sistemas POSIX em geral ou qualquer um que rode a biblioteca C padrão. Ou seja, sua instalação não é necessária em muitos casos havendo apenas a necessidade de instalar a sua versão melhorada "o VIM". Para tal, basta apenas setar o comando correspondente ao seu gerenciador de pacotes e concluir com a instalação. Além disso, existem personalizações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração pessoal do meu vim para que possar ser baixado e configurado a qualquer lugar que for. E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, fica a dica :**[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
+O VI está disponível para muitos sistemas: AmigaOS, Atari MiNT, BeOS, DOS, MacOS, NextStep, OS/2, OSF, RiscOS, SGI, UNIX, VMS, Win16 + Win32 (Windows95/98/00/NT) - e especialmente FreeBSD e GNU/Linux.  :-). Sistemas POSIX em geral ou qualquer um que rode a biblioteca C padrão. Ou seja, sua instalação não é necessária em muitos casos havendo apenas a necessidade de instalar a sua versão melhorada "o VIM". Para tal, basta apenas setar o comando correspondente ao seu gerenciador de pacotes e concluir com a instalação. Além disso, existem personalizações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração pessoal do meu vim para que possar ser baixado e configurado a qualquer lugar que for. E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
 
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
@@ -28,6 +41,13 @@ $ cd myvim
 $ sudo ./install                    
 {% endhighlight %}
 
+
+
+
 ## Trabalho social ##
 Não que isto venha a ser importante para você. Mas talvez seja importante para outrem.O Vim é *charity-ware*, isto é, você é incentivado a fazer
 doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)* (experimente dentro do VIM executar o comando ```:help uganda```). Ou acessando o site *[Charityware.info](http://charityware.info/)*.
+
+## Conclusão ##
+
+Embora eu tenha experimentado com um monte de editores de texto modernos convencionais, até o presente momento não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, eu ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo. Você se lembra de sua primeira experiência com vi ou Vim? Em homenagem ao 20º aniversário do editor de texto venerável, partilha-lhe as suas memórias e recursos favoritos comentando a baixo.
