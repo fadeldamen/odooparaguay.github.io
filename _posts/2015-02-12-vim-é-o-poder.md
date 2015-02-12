@@ -38,7 +38,6 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 * Syntastic
 * Multiuser
  
-lobocode
 
  
 ## Instalação e configuração ##
