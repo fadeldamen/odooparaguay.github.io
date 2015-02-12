@@ -20,9 +20,9 @@ ralmente o VI vem por padrão em diversos sistemas como o antigo AmigaOS, GNU Hu
 
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
-```shell
+#+BEGIN_SRC shell
 $ git clone https://github.com/lobocode/myvim.git
 $ cd myvim
 $ sudo ./install                    
-```  
+#+END_SRC
 
