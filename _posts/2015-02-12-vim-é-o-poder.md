@@ -16,9 +16,13 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 ## Instalação e configuração ##
 
-ralmente o VI vem por padrão em diversos sistemas como o antigo AmigaOS, GNU Hurd, GNU/Linux, BSD, Osx, IRIX, o antigo BeOS,AIX, sistemas POSIX em geral ou qualquer um que rode a biblioteca C padrão. Ou seja, sua instalação não é necessária em muitos casos havendo apenas a necessidade de instalar sua versão melhorada "o VIM". Para tal, basta apenas setar o comando correspondente ao seu gerenciador de pacotes e instalar o VIM. Além disso, existem personalizações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração pessoal do meu vim para que possar baixar e configurar nos mais diversos ambientes de trabalho. E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, fica a dica :[https://github.com/lobocode/myvim].
+ralmente o VI vem por padrão em diversos sistemas como o antigo AmigaOS, GNU Hurd, GNU/Linux, BSD, Osx, IRIX, o antigo BeOS,AIX, sistemas POSIX em geral ou qualquer um que rode a biblioteca C padrão. Ou seja, sua instalação não é necessária em muitos casos havendo apenas a necessidade de instalar sua versão melhorada "o VIM". Para tal, basta apenas setar o comando correspondente ao seu gerenciador de pacotes e instalar o VIM. Além disso, existem personalizações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração pessoal do meu vim para que possar ser baixado e configurado a qualquer lugar que for. E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, fica a dica :[https://github.com/lobocode/myvim].
 
+Para instalar basta colar estes três comandos em seu console (terminal):  
 
-
- 
+```shell
+$ git clone https://github.com/lobocode/myvim.git
+$ cd myvim
+$ sudo ./install                    
+```  
 
