@@ -30,7 +30,7 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 ## Plugins ##
 
-* Fugitive 
+* Fugitive - test
 * Emmet
 * tComment
 * NerdTree
