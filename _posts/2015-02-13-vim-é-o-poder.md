@@ -75,10 +75,10 @@ O comando ```:Glog``` é surpreendente. O comportamento padrão deste comando é
 Na sua forma mais básica, você poderá commitar e enviar seu projeto, módulo usando o ```:Gwrite``` para dar stage em seu arquivo, ```:Gcommit -m 'comentário'```, e por fim ```:Gpush``` para enviar seu projeto, módulo, código ao repositório git. Lembrando que é interessante também usar o ```:Gstatus``` para verificar o status de suas ações no git.
 
 **Referências, docs do Fugitive:**
- - [VimCasts.org - The Fugitive Series](http://vimcasts.org/blog/2011/05/the-fugitive-series/)
- - [Tpope Vim Fugitive Github](https://github.com/tpope/vim-fugitive)
- - [Tpope Vim Fugitive Doc](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
- - [Fugitive Best workflow](http://www.reddit.com/r/vim/comments/21f4gm/best_workflow_when_using_fugitive/)
+* [VimCasts.org - The Fugitive Series](http://vimcasts.org/blog/2011/05/the-fugitive-series/)
+* [Tpope Vim Fugitive Github](https://github.com/tpope/vim-fugitive)
+* [Tpope Vim Fugitive Doc](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
+* [Fugitive Best workflow](http://www.reddit.com/r/vim/comments/21f4gm/best_workflow_when_using_fugitive/)
 
 
 
