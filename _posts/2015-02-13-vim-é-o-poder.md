@@ -32,7 +32,7 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que há uma imensa probabilidade de que tudo o que você precisa para programar em um ambiente como no caso de uma IDE, já existe para vim. A baixo selecionei alguns plugins que uso em meu dia-a-dia e que estão contidos no pacote que compartilhei em **[meu github](https://github.com/lobocode/myvim)**:
 
-*** Fugitive
+### Fugitive
 
 O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: *"Fugitive é um plugin git tão impressionante, que deveria ser ilegal"*. Éntão foi assim que Pope descreveu seu plugin.
 
