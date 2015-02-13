@@ -98,7 +98,9 @@ Na sua forma mais básica, você poderá commitar e enviar seu projeto, módulo 
 ---
 
 ###Syntastic
-Syntastic é um plugin de verificação de sintaxe para o Vim que executa arquivos através de verificadores de sintaxe externos e exibe os erros para o usuário. Isto pode ser feito por demanda ou automaticamente conforme os arquivos sejam salvos. Se erros de sintaxe forem detectados, o usuário é instanteneamente notificado sem a necessidade de uma compilação ou coisa semelhante.
+Syntastic é um plugin para o Vim que executa arquivos através de um check sintax externo e exibe os erros para o usuário. Isto pode ser feito por a cada módulo, arquivo salvo ou dinamicamente "enquanto o código é digitado". Se erros de sintaxe forem detectados, o usuário é instanteneamente notificado sem a necessidade de uma compilação ou coisa semelhante.
+
+> O Syntastic é basicamente um checker Cheater de tão bom. Sentirá falta disto em qualquer outro lugar.
 
 As verificações de erros de sintaxe até o momento existe para ActionScript, Ada, AppleScript, Arduíno, AsciiDoc, ASM,BEMHTML, Bro, Bourne Shell,C,C++,C#,Cabal,Chef,CoffeScript,Coco,Coq, CSS, pepino , CUDA, D, Dart, DocBook, Poeira, Elixir, Erlang, eRuby, Fortran, metadados Gentoo, GLSL, Go, Haml, Haskell, Haxe, Guiador, HSS, HTML, Java, JavaScript, JSON, JSX, MENOS, Lex, Limbo, LISP, LLVM linguagem intermediária, Lua, MATLAB, NASM, Objective-C, Objective-C ++, OCaml, Perl, Perl POD, PHP, gettext Portable Object, OS X e iOS listas de propriedades, Puppet, Python, Raquete, R, reStructuredText, Ruby, SASS / SCSS, Scala, Magro, Tcl, TeX, Texinfo, Twig, dactilografados, Vala, Verilog, VHDL, VimL, XHTML, XML, XSLT, YACC, YAML, z80, modelos de página do Zope, e zsh.
 
@@ -111,12 +113,6 @@ Basicamente o Syntastic detecta erros de sintaxe ou de estilo de várias maneira
 <dt><a href="https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt">syntastic Doc</a></dt>
 <br/>
 </dl>
-
-
-
-
-
-
 
 ---
 
