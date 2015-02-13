@@ -78,11 +78,11 @@ Na sua forma mais básica, você poderá commitar e enviar seu projeto, módulo 
 **Referências, docs do Fugitive:**
 <dl>
 <dt><a href="http://vimcasts.org/blog/2011/05/the-fugitive-series">VimCasts.org</a></dt>
-</br>
+<br/>
 <dt><a href="https://github.com/tpope/vim-fugitive">Fugitive no Github</a></dt>
-</br>
+<br/>
 <dt><a href="https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt">Fugitive Doc</a></dt>
-</br>
+<br/>
 </dl>
 
 
