@@ -8,7 +8,7 @@ O Vim é um editor de texto extremamente configurável, criado para permitir a e
 
 Sua primeira versão foi lançada ainda em meados de 1988 e veio ao público a partir de 1991 já que anteriormente seu desenvolvedor *Bram Moolenaar* estava produzindo uma versão clone do VI mais elaborada do que as existêntes na época. Hoje, com apoio de milhares de desenvolvedores, o Vim é capaz de reconhecer mais de 400 sintaxes de linguagens de programação e marcação, possui mapeamento para teclas, macros, abreviações, busca por expressões regulares, entre outras facilidades. Conta com uma comunidade bastante atuante e é, ao lado do GNU Emacs um dos editores mais usados nos sistemas GNU, mas pode ser também instalado em outros sistemas, como o Windows e o Mac e BSD.
 
-## Mais de 20 anos se passaram e porque ainda usam o VIM? ##
+## Por que em 20 anos, ainda usam Vim? ##
 A idéia de usar um editor-oriented modal pode parecer um pouco anacrônico, à primeira vista, mas rico conjunto de recursos do Vim e extensibilidade profunda fizeram dele uma escolha duradoura entre os usuários avançados. É ainda um editor altamente popular, especialmente entre os programadores, desenvolvedores da Web, cientistas e administradores de sistema. O escopo completo de vantagens do Vim são difíceis de articular a usuários que não estão familiarizados com o editor. Embora uma explicação completa de como Vim funciona está além do escopo deste artigo, a seguir, uma pequena variedade de recursos úteis:
 
 * **Interface Flexível para  múltiplos documentos :** No Vim, seus arquivos e documentos não salvos são referidos como buffers. O editor dá-lhe uma enorme quantidade de controle sobre como seus buffers serão exibidos na tela. Você pode horizontalmente e verticalmente dividir a janela como e quantas vezes desejar para que você possa ver muitos buffers ao mesmo tempo. Você também pode organizar opcionalmente conjuntos de layouts divididas em abas. Layouts estes que podem ser preservados por uma  "sessão" e restaurá-lo mais tarde.
@@ -32,7 +32,7 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que há uma imensa probabilidade de que tudo o que você precisa para programar em um ambiente como no caso de uma IDE, já existe para vim. A baixo selecionei alguns plugins que uso em meu dia-a-dia e que estão contidos no pacote que compartilhei em **[meu github](https://github.com/lobocode/myvim)**:
 
-* Fugitive
+*** Fugitive
 
 O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: *"Fugitive é um plugin git tão impressionante, que deveria ser ilegal"*. Éntão foi assim que Pope descreveu seu plugin.
 
@@ -57,11 +57,6 @@ Quando você alterna para o editor e tentar editar o arquivo origem/path.txt not
 
 - Trabalhando com o git index
 Sempre tive uma ideia um pouco difusa do que é o git index. Talvez seja porque o arquivo .git/index usa um formato binário, tornando-se aparentemente inacessível para um editor de texto qualquer. Mas confesso que esta é uma situação interessante onde o Fugitive age brilhantemente. Por exemplo, poderá usar o comando ```:Gdiff``` para comparar a cópia anterior do seu trabalho com a atual. O modo diff do Vim torna possível encenar interativamente pedaços de cada mudança, como quando você executa o ```git diff --patch``` na linha de comando do terminal. 
-
-- 
-
-
-
 
 * Emmet
 * tComment
