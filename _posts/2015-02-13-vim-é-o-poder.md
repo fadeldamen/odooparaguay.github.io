@@ -42,7 +42,7 @@ Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável 
 
 Ai que entra o fugitive com o comando ```:Gblame``` que faz exatamente o que eu quero. Isto é, não tenho que recordar o caminho do arquivo atual porque o editor sabe exatamente o caminho. Não tenho que navegar até a linha atual, pois, já estarei lá. Apenas tenho que executar o comando ```:Gblame``` e pimba! feito! Receberei o nome do autor junto à linha de código. 
 
-No entanto, raramente uso o ```:Gblame```, e a linha de comando sempre foi bom o suficiente para a maioria das tarefas que executo diariamente com o git. Então, por muito tempo, tive o fugitive instalado mas não o usava. Sempre tive uma sensação incômoda de que estava perdendo muito com isto. Afinal, Tim Pope costuma dizer: "Eu não vou mentir para você, fugitive.vim pode muito bem ser o melhor wrapper git de todos os tempos."
+No entanto, raramente uso o ```:Gblame```, e a linha de comando sempre foi bom o suficiente para a maioria das tarefas que executo diariamente com o git. Então, por muito tempo, tive o fugitive instalado mas não o usava. Sempre tive uma sensação incômoda de que estava perdendo muito com isto. Afinal, Tim Pope costuma dizer: > "Eu não vou mentir para você, fugitive.vim pode muito bem ser o melhor wrapper git de todos os tempos." >
 
 Então decidi que valeria a pena cavar mais fundo e compartilhar o que aprendi até aqui embora não seja capaz de cobrir todos os recusos deste plugin. Sendo assim, vou focar nos que mais uso e achei mais interessantes:
 
