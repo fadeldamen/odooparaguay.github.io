@@ -30,7 +30,39 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 ## Plugins ##
 
-* Fugitive 
+Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que há uma imensa probabilidade de que tudo o que você precisa para programar em um ambiente como no caso de uma IDE, já existe para vim. A baixo selecionei alguns plugins que uso em meu dia-a-dia e que estão contidos no pacote que compartilhei em **[meu github](https://github.com/lobocode/myvim)**:
+
+* Fugitive
+
+O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: *"Fugitive é um plugin git tão impressionante, que deveria ser ilegal"*. Éntão foi assim que Pope descreveu seu plugin.
+
+Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, o terminal sempre foi um ambiente onde passo a maior parte do tempo quando estouno computador (isto é, a maior parte do tempo). Com o tempo, ainda que trabalhar no terminal seja algo extremamente gratificante, é normal surgir a necessidade de tornar o trabalho ainda mais prático como por exemplo, interagir com meu git repository dentro do editor em questão.
+
+Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável por "cagar" o sistema modificando uma determinada linha de código do projeto que está sendo construído no ambiente de desenvolvimento que trabalho. Obter estas informações por linha de comando no terminal, é possível mas requer um pouco de trabaho. Basicamente, tenho que lembrar o nome e caminho do arquivo que estou trabalhando para que possa passa-lo como um argumento para o ```git blame comando```.
+
+Ai que entra o fugitive com o comando ```:Gblame``` que faz exatamente o que eu quero. Isto é, não tenho que recordar o caminho do arquivo atual porque o editor sabe exatamente o caminho. Não tenho que navegar até a linha atual, pois, já estarei lá. Apenas tenho que executar o comando ```:Gblame``` e pimba! feito! Receberei o nome do autor junto à linha de código. 
+
+No entanto, raramente uso o ```:Gblame```, e a linha de comando sempre foi bom o suficiente para a maioria das tarefas que executo diariamente com o git. Então, por muito tempo, tive o fugitive instalado mas não o usava. Sempre tive uma sensação incômoda de que estava perdendo muito com isto. Afinal, Tim Pope costuma dizer: "Eu não vou mentir para você, fugitive.vim pode muito bem ser o melhor wrapper git de todos os tempos."
+
+Então decidi que valeria a pena cavar mais fundo e compartilhar o que aprendi até aqui embora não seja capaz de cobrir todos os recusos deste plugin. Sendo assim, vou focar nos que mais uso e achei mais interessantes:
+
+- Complemento a linha de comando git
+Comandos como ```:Gremove``` e ```:Gmove``` mapeia diretamente para git rm e mv git. Eu não me interessava muito por estes comandos porque não me imporatava com os comandos do git. Mas com o tempo as coisas podem ficar realmente confusas se você executar esses comandos no shel quando os ficheiros que aguem sobre, já estão abertos em seu editor. Por exemplo, se você executar:
+
+{% highlight bash %}
+git mv origem/path.txt destino/path.txt 
+{% endhighlight %} 
+
+Quando você alterna para o editor e tentar editar o arquivo origem/path.txt note que ele não existirá mais. Usando o Gmove, no entanto, o comando manterá as coisas arrumadas lidando simultaneamente com o git index e buffers do vim. 
+
+- Trabalhando com o git index
+Sempre tive uma ideia um pouco difusa do que é o git index. Talvez seja porque o arquivo .git/index usa um formato binário, tornando-se aparentemente inacessível para um editor de texto qualquer. Mas confesso que esta é uma situação interessante onde o Fugitive age brilhantemente. Por exemplo, poderá usar o comando ```:Gdiff``` para comparar a cópia anterior do seu trabalho com a atual. O modo diff do Vim torna possível encenar interativamente pedaços de cada mudança, como quando você executa o ```git diff --patch``` na linha de comando do terminal. 
+
+- 
+
+
+
+
 * Emmet
 * tComment
 * Syntastic
