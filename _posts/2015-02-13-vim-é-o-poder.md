@@ -34,7 +34,11 @@ Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua pri
 
 ### Fugitive
 
-O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: *"Fugitive é um plugin git tão impressionante, que deveria ser ilegal"*. Éntão foi assim que Pope descreveu seu plugin.
+O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: 
+
+> "Fugitive é um plugin git tão impressionante, que deveria ser ilegal".
+
+Éntão foi assim que Pope descreveu seu plugin.
 
 Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, o terminal sempre foi um ambiente onde passo a maior parte do tempo quando estouno computador (isto é, a maior parte do tempo). Com o tempo, ainda que trabalhar no terminal seja algo extremamente gratificante, é normal surgir a necessidade de tornar o trabalho ainda mais prático como por exemplo, interagir com meu git repository dentro do editor em questão.
 
