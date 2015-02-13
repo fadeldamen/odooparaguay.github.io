@@ -40,9 +40,9 @@ O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerencia
 
 Éntão foi assim que Pope descreveu seu plugin.
 
-Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, pode assustar a algumas pessoas mas, definitivamente trabalhar com o terminal aumenta significamente sua melhoria de produção em ambiente de desenvolvimento. E interagir com meu git repository dentro do editor em questão, foi uma outra necessidade que surgiu com o tempo.
+Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, pode assustar a algumas pessoas mas, definitivamente trabalhar com o terminal aumenta significamente a minha produtividade. E interagir com meu git repository dentro do editor em questão, foi uma outra necessidade que surgiu com o tempo.
 
-Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável por "cagar" o sistema modificando uma determinada linha de código do projeto que está sendo construído no ambiente de desenvolvimento que trabalho. Obter estas informações por linha de comando no terminal, é possível mas requer um pouco mais de trabalho. Basicamente, tenho que lembrar o nome e o caminho do arquivo que estou trabalhando para que possa passa-lo como um argumento para o ```git blame comando```.
+Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável por "cagar" o sistema modificando uma determinada linha de código do projeto que está sendo construído no ambiente de desenvolvimento que trabalho. Obter estas informações por linha de comando no terminal, é possível mas requer um pouco mais de trabalho. Basicamente, tenho que lembrar o nome e o caminho do arquivo que estou trabalhando para que possa passa-lo como um argumento para o comando ```git blame```.
 
 Ai que entra o fugitive com o comando ```:Gblame``` que faz exatamente o que eu quero. Isto é, não tenho que recordar o caminho do arquivo atual porque o editor sabe exatamente o caminho. Não tenho que navegar até a linha atual, pois, já estarei lá. Apenas tenho que executar o comando ```:Gblame``` e pimba! feito! Receberei o nome do autor da cagada junto à linha de código. 
 
@@ -59,7 +59,7 @@ Comandos como ```:Gremove``` e ```:Gmove``` mapeia diretamente para git rm e mv 
 git mv origem/path.txt destino/path.txt 
 {% endhighlight %} 
 
-Quando você alternar para o editor e tentar editar o arquivo origem/path.txt note que ele não existirá mais. Usando o Gmove, no entanto, o comando manterá as coisas arrumadas lidando simultaneamente com o git index e buffers do vim. 
+Quando você alternar para o editor e tentar editar o arquivo origem/path.txt note que ele não existirá mais. Usando o ```:Gmove```, no entanto, o comando manterá as coisas arrumadas lidando simultaneamente com o git index e buffers do vim. 
 
 - **Trabalhando com o git index**
 Sempre tive uma ideia um pouco difusa do que é o git index. Talvez seja porque o arquivo .git/index usa um formato binário, tornando-se aparentemente inacessível para um editor de texto qualquer. Mas confesso que esta é uma situação interessante onde o Fugitive age brilhantemente. Por exemplo, você poderá usar o comando ```:Gdiff``` para comparar a cópia anterior do seu trabalho com a atual. O modo diff do Vim torna possível encenar interativamente pedaços de cada mudança, como quando você executa o ```git diff --patch``` na linha de comando do terminal. Outra vantagem de usar o ```:Gdiff```, é para resolver os conflitos de mesclagem que costumo lidar com o ```git merge``` .
@@ -72,7 +72,13 @@ Se ainda sim você preferir compartilhar um link para o objeto que você tenha a
 - **Explorando o history de um repositorio git**
 O comando ```:Glog``` é surpreendente. O comportamento padrão deste comando é bastante diferente do comando ```git log```. Considerando que o ```git log``` mostra uma lista e mensagens de commits para o projeto inteiro, o ```:Glog``` carrega todas as revisões anteriores do arquivo atual na lista quickfix. Isto faz com que seja extremamente fácil rever o histórico de um arquivo.
 
+Na sua forma mais básica, você poderá commitar e enviar seu projeto, módulo usando o ```:Gwrite``` para dar stage em seu arquivo, ```:Gcommit -m 'comentário'```, e por fim ```:Gpush``` para enviar seu projeto, módulo, código ao repositório git. Lembrando que é interessante também usar o ```:Gstatus``` para verificar o status de suas ações no git.
 
+**Referências, docs do Fugitive:**
+- [VimCasts.org - The Fugitive Series](http://vimcasts.org/blog/2011/05/the-fugitive-series/)
+- [Tpope Vim Fugitive Github](https://github.com/tpope/vim-fugitive)
+- [Tpope Vim Fugitive Doc](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
+- [Fugitive Best workflow](http://www.reddit.com/r/vim/comments/21f4gm/best_workflow_when_using_fugitive/)
 
 
 
