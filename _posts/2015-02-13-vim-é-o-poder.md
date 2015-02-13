@@ -40,29 +40,41 @@ O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerencia
 
 Éntão foi assim que Pope descreveu seu plugin.
 
-Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, o terminal sempre foi um ambiente onde passo a maior parte do tempo quando estouno computador (isto é, a maior parte do tempo). Com o tempo, ainda que trabalhar no terminal seja algo extremamente gratificante, é normal surgir a necessidade de tornar o trabalho ainda mais prático como por exemplo, interagir com meu git repository dentro do editor em questão.
+Desde que comecei a usar git há alguns anos atrás, fui muito feliz em preferir usar linha de comando. Afinal, pode assustar a algumas pessoas mas, definitivamente trabalhar com o terminal aumenta significamente sua melhoria de produção em ambiente de desenvolvimento. E interagir com meu git repository dentro do editor em questão, foi uma outra necessidade que surgiu com o tempo.
 
-Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável por "cagar" o sistema modificando uma determinada linha de código do projeto que está sendo construído no ambiente de desenvolvimento que trabalho. Obter estas informações por linha de comando no terminal, é possível mas requer um pouco de trabaho. Basicamente, tenho que lembrar o nome e caminho do arquivo que estou trabalhando para que possa passa-lo como um argumento para o ```git blame comando```.
+Em termos práticos, suponhamos que eu deseje descobrir quem foi o responsável por "cagar" o sistema modificando uma determinada linha de código do projeto que está sendo construído no ambiente de desenvolvimento que trabalho. Obter estas informações por linha de comando no terminal, é possível mas requer um pouco mais de trabalho. Basicamente, tenho que lembrar o nome e o caminho do arquivo que estou trabalhando para que possa passa-lo como um argumento para o ```git blame comando```.
 
-Ai que entra o fugitive com o comando ```:Gblame``` que faz exatamente o que eu quero. Isto é, não tenho que recordar o caminho do arquivo atual porque o editor sabe exatamente o caminho. Não tenho que navegar até a linha atual, pois, já estarei lá. Apenas tenho que executar o comando ```:Gblame``` e pimba! feito! Receberei o nome do autor junto à linha de código. 
+Ai que entra o fugitive com o comando ```:Gblame``` que faz exatamente o que eu quero. Isto é, não tenho que recordar o caminho do arquivo atual porque o editor sabe exatamente o caminho. Não tenho que navegar até a linha atual, pois, já estarei lá. Apenas tenho que executar o comando ```:Gblame``` e pimba! feito! Receberei o nome do autor da cagada junto à linha de código. 
 
 No entanto, raramente uso o ```:Gblame```, e a linha de comando sempre foi bom o suficiente para a maioria das tarefas que executo diariamente com o git. Então, por muito tempo, tive o fugitive instalado mas não o usava. Sempre tive uma sensação incômoda de que estava perdendo muito com isto. Afinal, Tim Pope costuma dizer:
 
 > "Eu não vou mentir para você, fugitive.vim pode muito bem ser o melhor wrapper git de todos os tempos." 
 
-Então decidi que valeria a pena cavar mais fundo e compartilhar o que aprendi até aqui embora não seja capaz de cobrir todos os recusos deste plugin. Sendo assim, vou focar nos que mais uso e achei mais interessantes:
+Então decidi que valeria a pena cavar mais fundo e compartilhar o que aprendi até aqui embora não seja capaz de cobrir todos os recursos do Fugitive. Sendo assim, vou focar nos que mais uso e achei mais interessantes. Então vamos lá:
 
-- Complemento a linha de comando git
+- ** Complemento a linha de comando git **
 Comandos como ```:Gremove``` e ```:Gmove``` mapeia diretamente para git rm e mv git. Eu não me interessava muito por estes comandos porque não me imporatava com os comandos do git. Mas com o tempo as coisas podem ficar realmente confusas se você executar esses comandos no shel quando os ficheiros que aguem sobre, já estão abertos em seu editor. Por exemplo, se você executar:
 
 {% highlight bash %}
 git mv origem/path.txt destino/path.txt 
 {% endhighlight %} 
 
-Quando você alterna para o editor e tentar editar o arquivo origem/path.txt note que ele não existirá mais. Usando o Gmove, no entanto, o comando manterá as coisas arrumadas lidando simultaneamente com o git index e buffers do vim. 
+Quando você alternar para o editor e tentar editar o arquivo origem/path.txt note que ele não existirá mais. Usando o Gmove, no entanto, o comando manterá as coisas arrumadas lidando simultaneamente com o git index e buffers do vim. 
 
-- Trabalhando com o git index
-Sempre tive uma ideia um pouco difusa do que é o git index. Talvez seja porque o arquivo .git/index usa um formato binário, tornando-se aparentemente inacessível para um editor de texto qualquer. Mas confesso que esta é uma situação interessante onde o Fugitive age brilhantemente. Por exemplo, poderá usar o comando ```:Gdiff``` para comparar a cópia anterior do seu trabalho com a atual. O modo diff do Vim torna possível encenar interativamente pedaços de cada mudança, como quando você executa o ```git diff --patch``` na linha de comando do terminal. 
+- ** Trabalhando com o git index **
+Sempre tive uma ideia um pouco difusa do que é o git index. Talvez seja porque o arquivo .git/index usa um formato binário, tornando-se aparentemente inacessível para um editor de texto qualquer. Mas confesso que esta é uma situação interessante onde o Fugitive age brilhantemente. Por exemplo, você poderá usar o comando ```:Gdiff``` para comparar a cópia anterior do seu trabalho com a atual. O modo diff do Vim torna possível encenar interativamente pedaços de cada mudança, como quando você executa o ```git diff --patch``` na linha de comando do terminal. Outra vantagem de usar o ```:Gdiff```, é para resolver os conflitos de mesclagem que costumo lidar com o ```git merge``` .
+
+- ** Navegando no git objects database **
+Confesso que sempre gostei bastante da interface web que o github fornece. Pois, nela é possível navegar em cada repositório git e ao mesmo tempo lhe fornecem uma URL para cada git object incluindo trees, blobs, tags e commits. O Fugitive neste caso torna possível ler qualquer git object em um buffer, executando o comando ```:Gedit SHA```. Mas não para por aí. EM um buffer commitado, você pode pressionar **Enter** com o cursor em qualquer outro SHA e ele abrirá automaticamente o objeto em um buffer. Estes buffers são tão interativos como uma página da web, e estando no Vim, isto se torna tão prático que nós nunca precisaremos sequer usar o mouse.
+
+Se ainda sim você preferir compartilhar um link para o objeto que você tenha aberto no Vim, o comando ```:Gbrowse``` irá gerar uma URL no github para qualquer objeto que estiver ativo no Vim. Então o Fugitive lhe dá o melhor dos dois mundos.
+
+- ** Explorando o history de um repositorio git **
+O comando ```:Glog``` é surpreendente. O comportamento padrão deste comando é bastante diferente do comando ```git log```. Considerando que o ```git log``` mostra uma lista e mensagens de commits para o projeto inteiro, o ```:Glog``` carrega todas as revisões anteriores do arquivo atual na lista quickfix. Isto faz com que seja extremamente fácil rever o histórico de um arquivo.
+
+
+
+
 
 * Emmet
 * tComment
