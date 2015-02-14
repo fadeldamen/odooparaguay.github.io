@@ -14,7 +14,7 @@ A primeira semana com o Vim, geralmente, é dolorosa para todo mundo. Portanto, 
 
 Muita gente não entende a necessidade de migrar de um editor de texto “normal” para o Vim. Para isso, entender a filosofia dele é fundamental. A ideia básica do Vim é permanecer sempre com as mãos na parte central do teclado. Assim gasta-se menos tempo com deslocamentos desnecessários das mãos e sim com a edição em si. Embora pareça complicado no início não usar o mouse e nem as setas, é isso que torna o Vim tão eficaz.
 
-> Vim te faz sentir como um cirurgião de texto; Você opera precisamente e de forma inequívoca. É uma espécie muito direcionada de comando conjunt> o. - *Tom Ryder*
+> Vim te faz sentir como um cirurgião de texto; Você opera precisamente e de forma inequívoca. É uma espécie muito direcionada de comando conjunto. - *Tom Ryder*
 
 ## Por que depois de 20 anos, ainda usam Vim? 
 A idéia de usar um editor-oriented modal pode parecer um pouco anacrônico à primeira vista, maso rico conjunto de recursos do Vim e a sua profunda extensibilidade fizeram do Vim, uma escolha duradoura entre os usuários avançados. E ainda é um editor altamente popular, especialmente entre os programadores, desenvolvedores Web, cientistas e administradores de sistema. O escopo completo de vantagens do Vim são difíceis de articular a usuários que não estão familiarizados com o editor embora uma explicação completa de como Vim funciona esteja fora de questão, a seguir, uma pequena abordagem de recursos que me chamaram a atenção:
@@ -141,7 +141,7 @@ Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call Mu
 
  
 # Instalação e configuração
-Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
+Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```.Caso use o Mac OsX, é recomendável que se baixe o MacVim. No caso do Windows, é recomendável baixar o Vim no **[site oficial](http://www.vim.org/)**. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
 
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
@@ -150,6 +150,8 @@ $ git clone https://github.com/lobocode/myvim.git
 $ cd myvim
 $ sudo ./install                    
 {% endhighlight %}
+
+> Existem muitos usuários que fazem o mesmo. Caso o modo do qual uso não lhe satisfaça, sinta-se a vontade em buscar uma configuração que supra com as suas necessidades. Ou se preferir, montar sua própria configuração.
 
 # Trabalho social
 Não que isto venha a ser importante para você. Mas talvez seja importante para outrem.O Vim é *charity-ware*, isto é, você é incentivado a fazer
