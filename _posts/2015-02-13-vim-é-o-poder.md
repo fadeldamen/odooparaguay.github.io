@@ -4,7 +4,7 @@ title: Vim é o poder
 snip:  IDE pra quê? 
 ---
 
-![Vim](http://i.imgur.com/zR88hTu.gif =250x)
+![Vim](https://lh4.googleusercontent.com/-8KE515yD9dc/UHfXZ13tSsI/AAAAAAAAA_E/Ao3eToSQPLE/w800-h800/full-screenshot.png)
 
 O Vim é um editor de texto extremamente configurável, criado para permitir a edição de textos de forma eficiente. Também é um melhoramento do editor vi, um tradicional programa dos sistemas UNIX. Possui uma série de mudanças em relação a este último. O próprio slogan do vim é "Vi IMproved". Ou seja, Vi Melhorado. O Vim é tão conhecido e respeitado entre programadores, e tão útil para programação, que muitos o consideram uma verdadeira IDE. 
 
