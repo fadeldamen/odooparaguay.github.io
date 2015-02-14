@@ -161,6 +161,21 @@ doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)*
 
 ![Vim Uganda](http://www.vim.org/images/vim_drill_small.JPG)
 
+# Complemento
+![Tmux](http://www.periplus.com/image/cache/data/6968/9781934356968-300x400.jpg)
+Para você que trabalha com muitas janelas, conhecer o Tmux, fará toda a diferença. Tmux é um multiplexador de terminal onde você pode criar sessões (tipo as do GNU/Screen), se conectar e desconectar delas, mas com a vantagem de ter janelas e painéis.
+
+> A coisa mais impressionante sobre tmux, na minha opinião, é o quão frustrante a auditoria de código era. Em duas horas, eu encontrei apenas um ou dois nits que tiveram conseqüências de segurança muito menores. Ele não foi aceito na árvore com base apenas na licença. É código de alta qualidade. **[Theo de Raadt](http://en.wikipedia.org/wiki/Theo_de_Raadt)**
+
+![Tmux2](https://camo.githubusercontent.com/9a07003e528862ebff782aac2220ef226d28db57/68747470733a2f2f7261772e6769746875622e636f6d2f636872697368756e742f636f6c6f722d736368656d65732f6d61737465722f7468617965722f73637265656e73686f742e706e67)
+
+Para você que trabalha com muitas janelas, conhecer o Tmux, fará toda a diferença. Tmux é um multiplexador de terminal onde você pode criar sessões (tipo as do GNU/Screen), se conectar e desconectar delas, mas com a vantagem de ter janelas e painéis.
+Além de abrir programas simultaneamente o tmux também permite que a janela seja dividida na horizontal ou vertical, i. e., pode rodar dois programas simultamente na mesma janela, lado a lado, sem falar da capacidade de anexar ou sair de uma sessão sem que ela seja fechada.
+
+Além disso o Tmux funciona client/servidor para edição colaborativa como o MultiUser. No entanto, ele te dá a vantagem de ter muito mais controlede janelas e opções de terminal do que o MultiUser propriamente. Ou seja, você conseguirá trabalhar com Vim, bash, sua variações e vários projetos e sessões ao mesmo tempo. O vídeo a baixo, explica um pouco deste conceito:
+
+![Hangout](https://www.youtube.com/watch?v=2_Iq3tCrGXQ)
+
 # Conclusão 
 Embora eu tenha experimentado diversos editores de texto modernos, até a presente data não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo.
 
