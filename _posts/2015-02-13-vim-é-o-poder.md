@@ -169,7 +169,6 @@ Para você que trabalha com muitas janelas, conhecer o Tmux, fará toda a difere
 
 ![Tmux2](https://camo.githubusercontent.com/9a07003e528862ebff782aac2220ef226d28db57/68747470733a2f2f7261772e6769746875622e636f6d2f636872697368756e742f636f6c6f722d736368656d65732f6d61737465722f7468617965722f73637265656e73686f742e706e67)
 
-Para você que trabalha com muitas janelas, conhecer o Tmux, fará toda a diferença. Tmux é um multiplexador de terminal onde você pode criar sessões (tipo as do GNU/Screen), se conectar e desconectar delas, mas com a vantagem de ter janelas e painéis.
 Além de abrir programas simultaneamente o tmux também permite que a janela seja dividida na horizontal ou vertical, i. e., pode rodar dois programas simultamente na mesma janela, lado a lado, sem falar da capacidade de anexar ou sair de uma sessão sem que ela seja fechada.
 
 Além disso o Tmux funciona client/servidor para edição colaborativa como o MultiUser. No entanto, ele te dá a vantagem de ter muito mais controlede janelas e opções de terminal do que o MultiUser propriamente. Ou seja, você conseguirá trabalhar com Vim, bash, sua variações e vários projetos e sessões ao mesmo tempo. O vídeo a baixo, explica um pouco deste conceito:
