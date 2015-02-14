@@ -38,7 +38,7 @@ Além disso, ao meu ver, tem também a grande vantagem de rodar muito leve em qu
 
 # Plugins 
 
-Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que há uma imensa probabilidade de que tudo o que você precisa para programar em um ambiente como no caso de uma IDE, já existe para vim. A baixo selecionei alguns plugins que uso em meu dia-a-dia e que estão contidos no pacote que compartilhei em **[meu github](https://github.com/lobocode/myvim)**:
+Levando em conta que o Vim existe a mais de 20 anos, e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que háuma imensa probabilidade de que tudo o que você necessita em um ambiente como no caso de uma IDE, já existe para Vim. A baixoselecionei os plugins mais "mother fuckers" que conheço e que merecem um certo destaque neste artigo:
 
 ---
 
@@ -113,6 +113,17 @@ Basicamente o Syntastic detecta erros de sintaxe ou de estilo de várias maneira
 <dt><a href="https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt">syntastic Doc</a></dt>
 <br/>
 </dl>
+
+---
+
+###MultiUser
+
+Conhece alguma plataforma de desenvolvimento colaborativo em tempo real? bem, existe o **[Gobby](https://gobby.github.io/)**,o **[Etherpad](https://gobby.github.io/)**, o **[Cloud9](https://c9.io/)**, entre vários outros que permitem este tipo de interação entre os usuários. E algum editor tão poderoso quanto o vim que faz isto? vocêconhece? oras, o próprio diria. O MultiUser é um plugin que foi construído para permitir que os usuários de Vim pudessem interagir uns com os outros em tempo real e sobre o mesmo arquivo. O sistema funciona como client/servidor, requer na máquina umaversão superior ou igual ao Python 2.5 instalado, e roda localmente ou através de uma vpn.
+
+Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call MultiUserServer (porta)``` e para o client logar, basta digitar ```: call MultiUserClient ("ip do servidor","porta"). A porta pode ser a 1337, 2222 ou qualquer outra. Caso deseje criar uma VPN para acesso externo, poderá criar desde OpenVPN a Hamachi tranquilamente.
+
+
+
 
 ---
 
