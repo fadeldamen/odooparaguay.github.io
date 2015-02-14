@@ -151,7 +151,7 @@ $ cd myvim
 $ sudo ./install                    
 {% endhighlight %}
 
-> Existem muitos usuários que fazem o mesmo. Caso o modo do qual uso não lhe satisfaça, sinta-se a vontade em buscar uma configuração que supra com as suas necessidades. Ou se preferir, montar sua própria configuração.
+> Existem muitos usuários que fazem o mesmo. Caso o modo do qual uso não lhe satisfaça, sinta-se a vontade em buscar uma configuração que supra com as suas necessidades. Ou se preferir, poderá montar sua própria configuração.
 
 # Trabalho social
 Não que isto venha a ser importante para você. Mas talvez seja importante para outrem.O Vim é *charity-ware*, isto é, você é incentivado a fazer
