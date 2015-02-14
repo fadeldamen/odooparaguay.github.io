@@ -4,9 +4,11 @@ title: Vim é o poder
 snip:  IDE pra quê? 
 ---
 
+![Vim](http://i.imgur.com/zR88hTu.gif)
+
 O Vim é um editor de texto extremamente configurável, criado para permitir a edição de textos de forma eficiente. Também é um melhoramento do editor vi, um tradicional programa dos sistemas UNIX. Possui uma série de mudanças em relação a este último. O próprio slogan do vim é "Vi IMproved". Ou seja, Vi Melhorado. O Vim é tão conhecido e respeitado entre programadores, e tão útil para programação, que muitos o consideram uma verdadeira IDE. 
 
-Sua primeira versão foi lançada ainda em meados de 1988 e veio ao público a partir de 1991 já que anteriormente seu desenvolvedor **Bram Moolenaar** estava produzindo uma versão clone do VI mais elaborada do que as existêntes na época. Hoje, com apoio de milhares de desenvolvedores, o Vim é capaz de reconhecer mais de 400 sintaxes de linguagens de programação e marcação, possui mapeamento para teclas, macros, abreviações, busca por expressões regulares, entre outras facilidades. Conta com uma comunidade bastante atuante e é, ao lado do GNU Emacs um dos editores mais usados nos sistemas GNU, mas pode ser também instalado em outros sistemas, como o Windows e o Mac e BSD.
+Sua primeira versão foi lançada ainda em meados de 1988 e veio ao público a partir de 1991 já que anteriormente seu desenvolvedor **Bram Moolenaar** estava produzindo uma versão clone do VI mais elaborada do que as existêntes na época. Hoje, com apoio de milhares de desenvolvedores, o Vim é capaz de reconhecer mais de 400 linguagens, possui mapeamento para teclas, macros, abreviações, busca por expressões regulares, entre outras facilidades. Conta com uma comunidade bastante atuante e é, ao lado do GNU Emacs um dos editores mais usados nos sistemas GNU, mas pode ser também instalado em outros sistemas, como o Windows e o Mac e BSD.
 
 A primeira semana com o Vim, geralmente, é dolorosa para todo mundo. Portanto, não desanime. Se adaptar ao modal-editing (isso é, ter que ativar um modo especial sempre que você quer inserir texto no arquivo) pode parecer uma tarefa desnecessária e até impossível para o que você precisa para programar. A ideia de trabalhar a esta maneira só ficará mais clara para você depois de alguns dias lutando contra o teclado. Aliás, a grande maioria das coisas do Vim aparentemente não fazem sentido algum no início, mas com o uso fica claro como cada detalhe contribuí para torná-lo um editor de texto incrivelmente ágil e prático.
 
@@ -34,7 +36,7 @@ Tanto o Atom, quanto o SublimeText, por exemplo, misturam uma interface gráfica
 
 O fato é que nem Sublime, nem Atom, são tão leves e *onipresentes* quanto o VIM. Basicamente, o VIM está disponível por padrão até em sistemas operacionais mais antigos e roda em todos os sistemas que podem implementar a biblioteca C padrão ```você conhece algum S.O que não pode?``` "ou o VI que muda somente alguns comandos" mas que carrega a mesma essência.
 
-O grande problema com o uso de IDEs pesadas como Eclipse ou Netbeans, é que geralmente você não pode manipular ou escolher exatamente que tipo derecurso que deseja usar ou deixar de usar neles. IDEs tem a vantagem de serem capazes de atingir uma plataforma ou linguagem específica ( como por exemplo, o Java, PHP ou Android ). Desenvolvimento Android por exemplo, automaticamente vem em mente Android Studio ou Eclipse. Uma das grandesqualidades de um profissional na área de programação, é ter mente aberta. Portanto, pense fora da caixa "é essencial" para qualquer postura que venha a ter na vida. 
+IDEs e editores de textos estão entre os grandes motivadores de Guerras Santas entre desenvolvedores. Não vou falar que você deve user um ou o outro. Produtividade é muito subjetivo e pessoal, não existem regras que torna algo produtivo ou não, tem quem goste de trabalhar ouvindo música, tem quem goste de usar bermuda, e por ai vai.
 
 O Vim vem com 400+ arquivos de sintaxe para a coloração de texto em linguagens de programação comuns (Ada, C, C++, Eiffel, Fortran, Haskell, Java, Lisp, Modula, Pascal, Prolog, Python, Scheme, Smalltalk, SQL, Verilog, VisualBasic), programas matemáticos (Maple, Matlab, Mathematica, SAS), texto de marcação (DocBook, HTML, LaTeX, PostScript, SGML-LinuxDoc, TeX, WML, XML), saída de programa (diff, man), arquivos de configuração (4DOS, Apache, autoconfig, BibTeX, CSS, CVS, elm, IDL, LILO, pine, procmail, samba, slrn), shell scripts e configuração (shells: sh, bash, csh, ksh, zsh), linguagens de script  (awk, Perl, sed, yacc) arquivos de sistema (printcap, .Xdefaults) e é claro para o Vim e seus textos de ajuda.O Vim tem integração opcional com Perl, Tcl e Python, pode atuar como um servidor de automatização OLE sob o Windows, pode também ser instalado com código para X-Windows, adicionando menus configuráveis e suporte para o mouse. E mais.  Muito mais!
 
@@ -42,13 +44,13 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 # Plugins 
 
-Levando em conta que o Vim existe a mais de 20 anos, e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que háuma imensa probabilidade de que tudo o que você necessita em um ambiente como no caso de uma IDE, já existe para Vim. A baixoselecionei os plugins mais "mother fuckers" que conheço e que merecem um certo destaque neste artigo:
+Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que háuma imensa probabilidade de que tudo o que você necessita em um ambiente como no caso de uma IDE, já existe para Vim. A baixoselecionei os plugins mais "mother fuckers" que conheço e que merecem um certo destaque neste artigo:
 
 ---
 
 ### Fugitive
 
-O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador Tim Pope teve no processo de desenvolvimento da ferramenta: 
+O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador **[Tim Pop](http://tpo.pe/)** e teve no processo de desenvolvimento da ferramenta: 
 
 > "Fugitive é um plugin git tão impressionante, que deveria ser ilegal".
 
@@ -88,6 +90,7 @@ O comando ```:Glog``` é surpreendente. O comportamento padrão deste comando é
 
 Na sua forma mais básica, você poderá commitar e enviar seu projeto, módulo usando o ```:Gwrite``` para dar stage em seu arquivo, ```:Gcommit -m 'comentário'```, e por fim ```:Gpush``` para enviar seu projeto, módulo, código ao repositório git. Lembrando que é interessante também usar o ```:Gstatus``` para verificar o status de suas ações no git.
 
+> Conhece algum plugin, recurso superior ao Fugitive? show-me!
 
 **Referências, docs do Fugitive:**
 <dl>
@@ -153,14 +156,25 @@ Não que isto venha a ser importante para você. Mas talvez seja importante para
 doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)* (experimente dentro do VIM executar o comando ```:help uganda```). Ouacessando o site *[Charityware.info](http://charityware.info/)*.
 
 # Conclusão 
-Embora tenha experimentado com um monte de editores de texto modernos convencionais, até o presente momento não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, eu ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo. Você se lembra de sua primeira experiência com vi ou Vim? Em homenagem ao 20º aniversário do editor de textovenerável, partilha-lhe as suas memórias e recursos favoritos comentando a baixo.
+Embora eu tenha experimentado diversos editores de texto modernos, até a presente data não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo.
+
 
 **Tutoriais e Dicas do Vim:**
 <dl>
 <br/>
+<dt><a href="http://vimcasts.org/publications/">Pratical Vim</a></dt>
+<br/>
 <dt><a href="https://code.google.com/p/vimbook/">Vim book- PT-BR</a></dt>
 <br/>
-<dt><a href="http://aurelio.net/vim/">Aurelio Marinho - Vim</a></dt>
+<dt><a href="http://www.infowester.com/linuxvi.php">InfoWester</a></dt>
+<br/>
+<dt><a href="http://aurelio.net/vim/vim-basico.txt">Aurélio - Vim Básico</a></dt>
+<br/>
+<dt><a href="http://aurelio.net/vim/vim-medio.txt">Aurélio - Vim Médio</a></dt>
+<br/>
+<dt><a href="http://aurelio.net/vim/vim-avancado.txt">Aurélio - Vim Avançado</a></dt>
+<br/>
+<dt><a href="https://sites.google.com/site/bemylifeeasy/Home/vimrc">.vimrc - Dicas</a></dt>
 <br/>
 <dt><a href="http://www.akitaonrails.com/2010/07/19/screencast-comecando-com-vim#.VN623TZGh5Q">Fábio Akita - ScreenCast</a></dt>
 <br/>
@@ -174,7 +188,11 @@ Embora tenha experimentado com um monte de editores de texto modernos convencion
 <br/>
 <dt><a href="http://code.tutsplus.com/courses/venture-into-vim">Tutplus vim course</a></dt>
 <br/>
-<dt><a href="http://showmedo.com/videotutorials/series?name=0oSagogCe">Show me do - Vim Macros</a></dt>
+<dt><a href="https://brizeno.wordpress.com/2014/07/24/por-que-voce-tambem-gostaria-de-utilizar-vim/">Porque você também gostaria de usar Vim?</a></dt>
+<br/>
+<dt><a href="http://ericdouglas.github.io/2014/03/23/09-motivos-para-aprender-vim/">Motivos para aprender Vim</a></dt>
+<br/>
+<dt><a href="http://usevim.com/">Use Vim</a></dt>
 <br/>
 </dl>
 
