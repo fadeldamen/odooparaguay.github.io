@@ -10,14 +10,14 @@ O Vim é um editor de texto extremamente configurável, criado para permitir a e
 
 Sua primeira versão foi lançada ainda em meados de 1988 e veio ao público a partir de 1991 já que anteriormente seu desenvolvedor **Bram Moolenaar** estava produzindo uma versão clone do VI mais elaborada do que as existêntes na época. Hoje, com apoio de milhares de desenvolvedores, o Vim é capaz de reconhecer mais de 400 linguagens, possui mapeamento para teclas, macros, abreviações, busca por expressões regulares, entre outras facilidades. Conta com uma comunidade bastante atuante e é, ao lado do GNU Emacs um dos editores mais usados nos sistemas GNU, mas pode ser também instalado em outros sistemas, como o Windows e o Mac e BSD.
 
-A primeira semana com o Vim, geralmente, é dolorosa para todo mundo. Portanto, não desanime. Se adaptar ao modal-editing (isso é, ter que ativar um modo especial sempre que você quer inserir texto no arquivo) pode parecer uma tarefa desnecessária e até impossível para o que você precisa para programar. A ideia de trabalhar a esta maneira só ficará mais clara para você depois de alguns dias lutando contra o teclado. Aliás, a grande maioria das coisas do Vim aparentemente não fazem sentido algum no início, mas com o uso fica claro como cada detalhe contribuí para torná-lo um editor de texto incrivelmente ágil e prático.
+A primeira semana com o Vim, geralmente, é dolorosa para todo mundo. Portanto, não desanime. Se adaptar ao modal-editing (isto é, ter que ativar um modo especial sempre que você quer inserir texto no arquivo) pode parecer uma tarefa desnecessária e até impossível para o que você precisa para programar. A ideia de trabalhar a esta maneira só ficará mais clara para você depois de alguns dias lutando contra o teclado. Aliás, a grande maioria das coisas do Vim aparentemente não fazem sentido algum no início, mas com o uso fica claro como cada detalhe contribuí para torná-lo um editor de texto incrivelmente ágil e prático.
 
 Muita gente não entende a necessidade de migrar de um editor de texto “normal” para o Vim. Para isso, entender a filosofia dele é fundamental. A ideia básica do Vim é permanecer sempre com as mãos na parte central do teclado. Assim gasta-se menos tempo com deslocamentos desnecessários das mãos e sim com a edição em si. Embora pareça complicado no início não usar o mouse e nem as setas, é isso que torna o Vim tão eficaz.
 
 > Vim te faz sentir como um cirurgião de texto; Você opera precisamente e de forma inequívoca. É uma espécie muito direcionada de comando conjunto. - *Tom Ryder*
 
 ## Por que depois de 20 anos, ainda usam Vim? 
-A idéia de usar um editor-oriented modal pode parecer um pouco anacrônico à primeira vista, maso rico conjunto de recursos do Vim e a sua profunda extensibilidade fizeram do Vim, uma escolha duradoura entre os usuários avançados. E ainda é um editor altamente popular, especialmente entre os programadores, desenvolvedores Web, cientistas e administradores de sistema. O escopo completo de vantagens do Vim são difíceis de articular a usuários que não estão familiarizados com o editor embora uma explicação completa de como Vim funciona esteja fora de questão, a seguir, uma pequena abordagem de recursos que me chamaram a atenção:
+A idéia de usar um editor-oriented modal pode parecer um pouco anacrônico à primeira vista, mas o rico conjunto de recursos do Vim e a sua profunda extensibilidade fizeram do Vim, uma escolha duradoura entre os usuários avançados. E ainda é um editor altamente popular, especialmente entre os programadores, desenvolvedores Web, cientistas e administradores de sistema. O escopo completo de vantagens do Vim são difíceis de articular a usuários que não estão familiarizados com o editor embora uma explicação completa de como Vim funciona esteja fora de questão. A seguir, uma pequena abordagem de recursos que me chamaram a atenção:
 
 * **Interface Flexível para  múltiplos documentos :** No Vim, seus arquivos e documentos não salvos são referidos como buffers. O editor dá-lhe uma enorme quantidade de controle sobre como seus buffers serão exibidos na tela. Você pode horizontalmente e verticalmente dividir a janela como e quantas vezes desejar para que você possa ver muitos buffers ao mesmo tempo. Você também pode organizar opcionalmente conjuntos de layouts divididas em abas. Layouts estes que podem ser preservados por uma  "sessão" e restaurá-lo mais tarde.
 
@@ -27,7 +27,7 @@ A idéia de usar um editor-oriented modal pode parecer um pouco anacrônico à p
 
 * **Extensibilidade :** Vim é prodigiosamente programável e altamente propício para a automação. Ele tem sua própria linguagem de script nativa com os tipos de contentores, um modelo único de escopo de variáveis, e um monte de funcionalidades específicas. Também foi construído com mecanismos de script e ligações que lhe permitem ser personalizado através numerosas linguagens de programação convencionais, incluindo Perl, Python, Ruby, Tcl, e Lua.
 
-Vim também pode ser estendido para adicionar destaque de sintaxe para idiomas adicionais ou criar esquemas de cores personalizadas. Usuários amplamente compartilham seus scripts através de vários repositórios online. Como já demonstrado anteriormente , a instalação de alguns plugins simples e scripts pode dar Vim muitas das capacidades avançadas de um ambiente de desenvolvimento integrado.
+Vim também pode ser estendido para adicionar destaque de sintaxe para idiomas adicionais ou criar esquemas de cores personalizadas. Usuários amplamente compartilham seus scripts através de vários repositórios online. A instalação de alguns plugins simples e scripts pode dar ao Vim muitas das capacidades avançadas de um ambiente de desenvolvimento integrado.
 
 # Editores modernos 
 Vivemos em um tempo em que há uma grande variedade de editores que são usados para inúmeros fins. Como é o caso do Atom **[https://atom.io](https://atom.io)**. Este é um editor que foi fortemente baseado no **[SublimeText](www.sublimetext.com)** sendo o Sublime hoje considerado por muitos, como o melhor editor para desenvolvedores. Ao observar este quadro, surge uma preocupação: **longevidade**. Parece que passamos uma grande quantidade de tempo nos comprometendo com teclas atalhos, manuais, tutoriais para aprender a manuzear recursos que são específicos para o que estamos usando em um determinado editor e ao mesmo tempo, nos perdendo com a variedade absurda de ferramentas oferecidas nos mais variados editores.
@@ -36,7 +36,7 @@ Tanto o Atom, quanto o SublimeText, por exemplo, misturam uma interface gráfica
 
 O fato é que nem Sublime, nem Atom, são tão leves e *onipresentes* quanto o VIM. Basicamente, o VIM está disponível por padrão até em sistemas operacionais mais antigos e roda em todos os sistemas que podem implementar a biblioteca C padrão ```você conhece algum S.O que não pode?``` "ou o VI que muda somente alguns comandos" mas que carrega a mesma essência.
 
-IDEs e editores de textos estão entre os grandes motivadores de Guerras Santas entre desenvolvedores. Não vou falar que você deve user um ou o outro. Produtividade é muito subjetivo e pessoal, não existem regras que torna algo produtivo ou não, tem quem goste de trabalhar ouvindo música, tem quem goste de usar bermuda, e por ai vai.
+IDEs e editores de textos estão entre os grandes motivadores de Guerras Santas entre desenvolvedores. Não vou falar que você deve usar um ou o outro. Produtividade é muito subjetivo e pessoal, não existem regras que torna algo produtivo ou não, tem quem goste de trabalhar ouvindo música, tem quem goste de usar bermuda, e por ai vai.
 
 O Vim vem com 400+ arquivos de sintaxe para a coloração de texto em linguagens de programação comuns (Ada, C, C++, Eiffel, Fortran, Haskell, Java, Lisp, Modula, Pascal, Prolog, Python, Scheme, Smalltalk, SQL, Verilog, VisualBasic), programas matemáticos (Maple, Matlab, Mathematica, SAS), texto de marcação (DocBook, HTML, LaTeX, PostScript, SGML-LinuxDoc, TeX, WML, XML), saída de programa (diff, man), arquivos de configuração (4DOS, Apache, autoconfig, BibTeX, CSS, CVS, elm, IDL, LILO, pine, procmail, samba, slrn), shell scripts e configuração (shells: sh, bash, csh, ksh, zsh), linguagens de script  (awk, Perl, sed, yacc) arquivos de sistema (printcap, .Xdefaults) e é claro para o Vim e seus textos de ajuda.O Vim tem integração opcional com Perl, Tcl e Python, pode atuar como um servidor de automatização OLE sob o Windows, pode também ser instalado com código para X-Windows, adicionando menus configuráveis e suporte para o mouse. E mais.  Muito mais!
 
@@ -44,13 +44,13 @@ Já imaginou trabalhar em um editor que pode ser moldado a todas as suas necessi
 
 # Plugins 
 
-Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que háuma imensa probabilidade de que tudo o que você necessita em um ambiente como no caso de uma IDE, já existe para Vim. A baixoselecionei os plugins mais "mother fuckers" que conheço e que merecem um certo destaque neste artigo:
+Levando em conta que o Vim existe a mais de 20 anos e que antes mesmo de sua primeira versão em 1988 já existia o VI, fica realmente difícil de especular quantos plugins, addons, scripts devem existir para este editor. O que posso garantir, é que há uma imensa probabilidade de que tudo o que você necessita em um ambiente como no caso de uma IDE, já exista para Vim. A baixo selecionei os plugins mais **"mother fuckers"** que conheço e que merecem um certo destaque neste artigo:
 
 ---
 
 ### Fugitive
 
-O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador **[Tim Pop](http://tpo.pe/)** e teve no processo de desenvolvimento da ferramenta: 
+O Fugitive é nada mais, nada menos, do que o mais completo plugin para gerenciamento de projetos git que ja tive o prazer de conhecer. Seu nome se deve à descrição que seu criador **[Tim Pope](http://tpo.pe/)** teve no processo de desenvolvimento da ferramenta: 
 
 > "Fugitive é um plugin git tão impressionante, que deveria ser ilegal".
 
@@ -69,7 +69,7 @@ No entanto, raramente uso o ```:Gblame```, e a linha de comando sempre foi bom o
 Então decidi que valeria a pena cavar mais fundo e compartilhar o que aprendi até aqui embora não seja capaz de cobrir todos os recursos do Fugitive. Sendo assim, vou focar nos que mais uso e achei mais interessantes. Então vamos lá:
 
 - **Complemento a linha de comando git**
-Comandos como ```:Gremove``` e ```:Gmove``` mapeia diretamente para git rm e mv git. Eu não me interessava muito por estes comandos porque não me imporatava com os comandos do git. Mas com o tempo as coisas podem ficar realmente confusas se você executar esses comandos no shel quando os ficheiros que aguem sobre, já estão abertos em seu editor. Por exemplo, se você executar:
+Comandos como ```:Gremove``` e ```:Gmove``` mapeia diretamente para git rm e mv git. Eu não me interessava muito por estes comandos porque não me imporatava com os comandos do git. Mas com o tempo as coisas podem ficar realmente confusas se você executar esses comandos no shell quando os ficheiros já estão abertos em seu editor. Por exemplo, se você executar:
 
 {% highlight bash %}
 git mv origem/path.txt destino/path.txt 
@@ -141,8 +141,10 @@ Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call Mu
 
  
 # Instalação e configuração
-Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```.Caso use o Mac OsX, é recomendável que se baixe o MacVim. No caso do Windows, é recomendável baixar o Vim no **[site oficial](http://www.vim.org/)**. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
-	
+Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```.Caso use o Mac OsX, é recomendável que se baixe o MacVim. No caso do Windows, é recomendável baixar o Vim no **[site oficial](http://www.vim.org/)**. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet.
+
+Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
+
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
 {% highlight bash %}
@@ -156,6 +158,8 @@ $ sudo ./install
 # Trabalho social
 Não que isto venha a ser importante para você. Mas talvez seja importante para outrem.O Vim é *charity-ware*, isto é, você é incentivado a fazer
 doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)* (experimente dentro do VIM executar o comando ```:help uganda```). Ouacessando o site *[Charityware.info](http://charityware.info/)*.
+
+![Vim Uganda](http://www.vim.org/images/vim_drill_small.JPG)
 
 # Conclusão 
 Embora eu tenha experimentado diversos editores de texto modernos, até a presente data não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo.
