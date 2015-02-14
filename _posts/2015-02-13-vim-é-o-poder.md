@@ -124,7 +124,7 @@ Basicamente o Syntastic detecta erros de sintaxe ou de estilo de várias maneira
 
 Conhece alguma plataforma de desenvolvimento colaborativo em tempo real? bem, existe o **[Gobby](https://gobby.github.io/)**,o **[Etherpad](https://gobby.github.io/)**, o **[Cloud9](https://c9.io/)**, entre vários outros que permitem este tipo de interação entre os usuários. E algum editor tão poderoso quanto o vim que faz isto? Conhece? Oras, o próprio diria. O MultiUser é um plugin que foi construído para permitir que os usuários de Vim pudessem interagir uns com os outros em tempo real e sobre o mesmo arquivo. O sistema funciona como client/servidor, requer na máquina uma versão superior ou igual ao Python 2.5 instalado, e roda localmente ou através de uma vpn.
 
-Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call MultiUserServer (porta)``` e para o client logar, basta digitar ```: call MultiUserClient ("ip do servidor","porta"). A porta pode ser a 1337, 2222 ou qualquer outra. Caso deseje criar uma VPN para acesso externo, poderá criar desde OpenVPN a Hamachi tranquilamente.
+Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call MultiUserServer (porta)``` e para o client logar, basta digitar ```:call MultiUserClient ("ip do servidor","porta")```. A porta pode ser a 1337, 2222 ou qualquer outra. Caso deseje criar uma VPN para acesso externo, poderá criar desde OpenVPN a Hamachi tranquilamente.
 
 **Referências, docs do MultiUser:**
 <dl>
@@ -138,7 +138,7 @@ Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call Mu
 
  
 # Instalação e configuração
-Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim -y```. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
+Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet. Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
 
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
@@ -154,7 +154,6 @@ doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)*
 
 # Conclusão 
 Embora tenha experimentado com um monte de editores de texto modernos convencionais, até o presente momento não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, eu ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo. Você se lembra de sua primeira experiência com vi ou Vim? Em homenagem ao 20º aniversário do editor de textovenerável, partilha-lhe as suas memórias e recursos favoritos comentando a baixo.
-
 
 **Tutoriais e Dicas do Vim:**
 <dl>
@@ -177,7 +176,6 @@ Embora tenha experimentado com um monte de editores de texto modernos convencion
 <br/>
 <dt><a href="http://showmedo.com/videotutorials/series?name=0oSagogCe">Show me do - Vim Macros</a></dt>
 <br/>
-
 </dl>
 
 
