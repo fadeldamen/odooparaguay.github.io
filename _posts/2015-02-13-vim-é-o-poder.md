@@ -171,10 +171,7 @@ Para você que trabalha com muitas janelas, conhecer o Tmux, fará toda a difere
 
 Além de abrir programas simultaneamente o tmux também permite que a janela seja dividida na horizontal ou vertical, i. e., pode rodar dois programas simultamente na mesma janela, lado a lado, sem falar da capacidade de anexar ou sair de uma sessão sem que ela seja fechada.
 
-Além disso o Tmux funciona client/servidor para edição colaborativa como o MultiUser. No entanto, ele te dá a vantagem de ter muito mais controle de janelas e opções de terminal do que o MultiUser propriamente. Ou seja, você conseguirá trabalhar com Vim, bash, sua variações e vários projetos e sessões ao mesmo tempo. O vídeo a baixo, explica um pouco deste conceito:
-
-
-< iframe title="Tmux Hangout" width="480" height="390" src="https://www.youtube.com/watch?v=2_Iq3tCrGXQ"1 frameborder="0" allowfullscreen>< /iframe>
+Além disso o Tmux funciona client/servidor para edição colaborativa como o MultiUser. No entanto, ele te dá a vantagem de ter muito mais controle de janelas e opções de terminal do que o MultiUser propriamente. Ou seja, você conseguirá trabalhar com Vim, bash, sua variações e vários projetos e sessões ao mesmo tempo. Para saber mais sobre o Tmux com Vim e edição em par, clique **[aqui](https://www.youtube.com/watch?v=2_Iq3tCrGXQ)**.
 
 # Conclusão 
 Embora eu tenha experimentado diversos editores de texto modernos, até a presente data não encontrei nenhum que corresponda a eficiência do Vim. Depois de usar Vim quase todos os dias por tantos anos, ainda estou descobrindo novos recursos, capacidades e comportamentos úteis que melhoram ainda mais a minha produtividade. Vim envelheceu bem ao longo dos últimos 20 anos. Não é apenas uma relíquia, ainda é tão atraente como sempre e continua a atrair novos usuários. A curva de aprendizagem é íngreme, mas os ganhos de produtividade são incríveis e fazem valer muito o esforço em aprende-lo.
