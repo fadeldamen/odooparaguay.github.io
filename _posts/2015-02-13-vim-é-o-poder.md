@@ -123,6 +123,13 @@ Para configurar o servidor, basta instalar o plugin no vim e digitar ```:call Mu
 
 ---
 
+###Ag
+Ag é um projeto baseado no **Ack** reescrito em C que por sua vez, é uma alternativa ao grep para programadores. Comumente perdemos muito tempo procurando um pedaço de código que deixamos em algum módulo de programação. O ag supre justamente com esta necessidade e faz buscas aleatórias em todos seus módulos em busca da palavra, texto, expressão, código desejado e de maneira extremamente rápida se comparado ao Ack por ser escrito em Perl ou o Grep que tem um propósito mais generalizado e melhor, pode ser integrado tanto para o VIM quanto para Emacs e outros editores. 
+
+<dl>
+<dt><a href="https://github.com/ggreer/the_silver_searcher">The Silver Searcher - Ag</a></dt>
+</dl>
+
  
 # Instalação e configuração
 Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```.Caso use o Mac OsX, é recomendável que se baixe o MacVim. No caso do Windows, é recomendável baixar o Vim no **[site oficial](http://www.vim.org/)**. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet.
