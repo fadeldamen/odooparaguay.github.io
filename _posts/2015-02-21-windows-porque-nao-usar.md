@@ -31,7 +31,7 @@ O problema é que sempre irá depender de gambiarras para fazer uma ferramenta q
 * ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
 * ***Controle de versão*** - diff , patch , svn , git
 
-Eu não vou dizer que o sistemas baseados no Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem esccreve aplicações baseadas em GUI. Particular, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
+Não vou dizer que sistemas baseados no Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem esccreve aplicações baseadas em GUI. Particular, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
 
 Que empresa séria apoiaria esta postura? Bem, o Google está substituindo todos os seus ambientes de trabalho por GNU/Linux e BSD/Darwin (OS X) por questões de segurança como também praticidade.
 
