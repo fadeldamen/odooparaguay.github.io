@@ -18,11 +18,22 @@ Perl, PHP,Ruby, Python e outros interpretadores nasceram no ambiente Unix e depe
 
 > A aplicação melhor sobrevive a plataforma na qual foi desenvolvido e implantado - ***[OPENNT: UNIX Application Portability to Windows NT via an Alternative Environment Subsystem](https://www.usenix.org/legacy/publications/library/proceedings/usenix-nt97/full_papers/walli/walli.pdf)- Stephen R.Walli***
 
-Ainda segundo Stephen R.Walli, a melhor alternativa neste caso, seria usar o Windows NT. O problema é que o Windows NT que tem suporte ao sub-sistema POSIX, é a versão anterior ao NT 5.1. Ou seja, uma versão anterior ao Windows XP e Windows Server 2003. A partir da versão 5.1 em diante, a Microsoft resolveu substituir o sub-sistema POSIX pelo então já citado ***[Windows Se    rvices for UNIX](http://www.microsoft.com/en-us/download/details.aspx?id=274)***. Esta informação você poderá conferir no ***[http://support.microsoft.com/kb/308259](http://support.microsoft.com/kb/308259)***. Basicamente, tudo relacionado a POSIX e Microsoft, você encontrará no NT anterior a versão 5.1 como destaca David G.Korn no paper ***[UWIN-Unix for Windows](https://www.usenix.org/legacy/publications/library/proceedings/usenix-nt97/full_papers/korn/korn.pdf)***.
+Ainda segundo Stephen R.Walli, a melhor alternativa neste caso, seria usar o Windows NT. O problema é que o Windows NT que tem suporte ao sub-sistema POSIX, é a versão anterior ao NT 5.1. Ou seja, uma versão anterior ao Windows XP e Windows Server 2003. A partir da versão 5.1 em diante, a Microsoft resolveu substituir o sub-sistema POSIX pelo então já citado ***[Windows Services for UNIX](http://www.microsoft.com/en-us/download/details.aspx?id=274)***. Esta informação você poderá conferir no ***[http://support.microsoft.com/kb/308259](http://support.microsoft.com/kb/308259)***. Basicamente, tudo relacionado a POSIX e Microsoft, você encontrará no NT anterior a versão 5.1 como destaca David G.Korn no paper ***[UWIN-Unix for Windows](https://www.usenix.org/legacy/publications/library/proceedings/usenix-nt97/full_papers/korn/korn.pdf)***.
 
 > "Mas eu desenvolvo em PHP e Python no Windows sem problemas!"
 
-O problema é que sempre irá depender de gambiarras para fazer uma ferramenta que é simples no UNIX, funcionar bem no Windows. O mesmo para Ruby que funcionará parcialmente bem, Python, Perl, Php e sempre se manterá assim, tudo funcionando em parte, nunca 100%. Que empresa séria apoiaria esta postura? Bem, o Google está substituindo todos os seus ambientes de trabalho por GNU/Linux e BSD/Darwin (OS X) por questões de segurança como também praticidade.
+O problema é que sempre irá depender de gambiarras para fazer uma ferramenta que é simples no UNIX, funcionar bem no Windows. O mesmo para Ruby que funcionará parcialmente bem, Python, Perl, Php e sempre se manterá assim, tudo funcionando em parte, nunca 100%. Sem falar das ferramentas disponíveis em sistemas POSIX em um simples terminal que ajuda e muito no desenvolvimento e elaboração de bons projetos. Ferramentas tais como:
+
+> ***Arquivo e gestão de projetos*** - ls , encontrar , grep / ack , festança
+> ***Ferramentas do editor de texto e edição*** - vim , awk , tipo , coluna
+> ***Compiler e / ou interpretador*** - gcc , perl, python
+> ***Construir ferramentas*** - make
+> ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
+> ***Controle de versão*** - diff , remendo , svn , git
+
+Eu não vou dizer que o sistemas baseados no Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem esccreve aplicações baseadas em GUI. Particular, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
+
+Que empresa séria apoiaria esta postura? Bem, o Google está substituindo todos os seus ambientes de trabalho por GNU/Linux e BSD/Darwin (OS X) por questões de segurança como também praticidade.
 
  Na verdade, o Google nunca foi realmente dependente da plataforma Windows, por isso, esta é uma "solução" de fácil implementação para a empresa dado ao fato de que o desenvolvimento de boa parte dos softwares por lá é Open-Source, e toda sua linha de aplicativos de negócios são baseados em Cloud. Então, concluímos que fica fácil de compreender o motivo. 
 
