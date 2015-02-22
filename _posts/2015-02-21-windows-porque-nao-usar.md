@@ -24,12 +24,12 @@ Ainda segundo Stephen R.Walli, a melhor alternativa neste caso, seria usar o Win
 
 O problema é que sempre irá depender de gambiarras para fazer uma ferramenta que é simples no UNIX, funcionar bem no Windows. O mesmo para Ruby que funcionará parcialmente bem, Python, Perl, Php e sempre se manterá assim, tudo funcionando em parte, nunca 100%. Sem falar das ferramentas disponíveis em sistemas POSIX em um simples terminal que ajuda e muito no desenvolvimento e elaboração de bons projetos. Ferramentas tais como:
 
-> ***Arquivo e gestão de projetos*** - ls , encontrar , grep / ack , festança
-> ***Ferramentas do editor de texto e edição*** - vim , awk , tipo , coluna
-> ***Compiler e / ou interpretador*** - gcc , perl, python
-> ***Construir ferramentas*** - make
-> ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
-> ***Controle de versão*** - diff , remendo , svn , git
+* ***Arquivo e gestão de projetos*** - ls , encontrar , grep / ack , festança
+* ***Ferramentas do editor de texto e edição*** - vim , awk , tipo , coluna
+* ***Compiler e / ou interpretador*** - gcc , perl, python
+* ***Construir ferramentas*** - make
+* ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
+* ***Controle de versão*** - diff , remendo , svn , git
 
 Eu não vou dizer que o sistemas baseados no Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem esccreve aplicações baseadas em GUI. Particular, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
 
