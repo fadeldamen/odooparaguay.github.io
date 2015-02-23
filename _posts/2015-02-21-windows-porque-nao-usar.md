@@ -31,6 +31,8 @@ O problema é que sempre irá depender de gambiarras para fazer uma ferramenta q
 * ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
 * ***Controle de versão*** - diff , patch , svn , git
 
+![vim](http://blog.sanctum.geek.nz/wp-content/uploads/2012/02/vim-diff.png)
+
 Não vou dizer que sistemas baseados em Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem escreve aplicações baseadas em GUI. Particularmente, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
 
 Mas, afinal, empresa séria apoiaria este tipo de postura? Bem, o Google está substituindo todos os seus ambientes de trabalho por GNU/Linux e BSD/Darwin (OS X) por questões de segurança como também praticidade. Na verdade, o Google nunca foi realmente dependente da plataforma Microsoft Windows, por isso, esta é uma "solução" de fácil implementação dado ao fato de que o desenvolvimento de boa parte dos softwares por lá é Open-Source, e toda sua linha de aplicações de negócios são baseados em Cloud.  
@@ -38,3 +40,8 @@ Mas, afinal, empresa séria apoiaria este tipo de postura? Bem, o Google está s
 > Mas em meu trabalho, sou obrigado a usar Microsoft Windows. Logo tenho que ser neutro, não há alternativas por lá.
 
 Nesse caso, se o seu ambiente de trabalho te obrigam a usar Windows, existe sim uma alternativa. Neste caso é usar máquinas virtuais com a ajuda do bom e velho ***[Vagrant](https://www.vagrantup.com/)***. Se você é o tipo de profissional ou estudante com "mente aberta", está mais do que na hora de experimentar algo novo. No fim das contas, você estará usando um sistema que lhe ajudará a dar passos significativos para melhorar à sua maneira de desenvolver software, estará evitando a pirataria, e descobrindo um novo universo de possibilidades.
+
+Recomendação:
+<dl>
+	<dt><a href="http://blog.sanctum.geek.nz/unix-as-ide-editing/">Unix as IDE editing</a></dt>
+</dl>
