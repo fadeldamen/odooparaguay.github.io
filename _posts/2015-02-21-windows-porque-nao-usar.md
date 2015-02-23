@@ -31,7 +31,7 @@ O problema é que sempre irá depender de gambiarras para fazer uma ferramenta q
 * ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
 * ***Controle de versão*** - diff , patch , svn , git
 
-![screenshot](https://github.com/lobocode/lobocode.github.io/blob/master/media/3.jpg)
+![vim](https://raw.githubusercontent.com/lobocode/lobocode.github.io/master/media/3.jpg)
 
 Não vou dizer que sistemas baseados em Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem escreve aplicações baseadas em GUI. Particularmente, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
 
