@@ -31,8 +31,6 @@ O problema é que sempre irá depender de gambiarras para fazer uma ferramenta q
 * ***Debugger*** - gdb , valgrind , ltrace , lsof , pmap
 * ***Controle de versão*** - diff , patch , svn , git
 
-![vim](https://raw.githubusercontent.com/lobocode/lobocode.github.io/master/media/3.jpg)
-
 Não vou dizer que sistemas baseados em Unix são sempre a melhor alternativa para qualquer tarefa de programação; é, sem dúvida, muito mais adequado para C, C++, Python, Perl, Ruby, PHP, ou desenvolvimento Shell do que para linguagens como Java, .NET ou C#, especialmente quem escreve aplicações baseadas em GUI. Particularmente, não estou tentando convencê-lo a parar de usar o seu Visual Studio. Cada um faz o que desejar e como desejar.
 
 Mas, afinal, empresa séria apoiaria este tipo de postura? Bem, o Google está substituindo todos os seus ambientes de trabalho por GNU/Linux e BSD/Darwin (OS X) por questões de segurança como também praticidade. Na verdade, o Google nunca foi realmente dependente da plataforma Microsoft Windows, por isso, esta é uma "solução" de fácil implementação dado ao fato de que o desenvolvimento de boa parte dos softwares por lá é Open-Source, e toda sua linha de aplicações de negócios são baseados em Cloud.  
