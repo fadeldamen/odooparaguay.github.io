@@ -22,7 +22,7 @@ Ainda segundo Stephen R.Walli, a melhor alternativa neste caso, seria usar o Win
 
 > "Mas eu desenvolvo em PHP e Python no Windows sem problemas!"
 
-O problema é que sempre irá depender de gambiarras para fazer uma ferramenta que é simples no UNIX, funcionar bem no Windows. O mesmo para Ruby que funcionará parcialmente bem em Python, Perl, Php e sempre se manterá assim, tudo funcionando em parte, nunca 100%. Sem falar do conjunto de ferramentas disponíveis em sub-sistemas POSIX. Veja o exemplo a baixo de algumas destas ferramentas:
+O problema é que sempre irá depender de gambiarras para fazer uma ferramenta que é simples no UNIX, funcionar bem no Windows. O mesmo para Ruby que funcionará parcialmente bem, o mesmo para Python, Perl, Php e sempre se manterá assim, tudo funcionando em parte, nunca 100%. Sem falar do conjunto de ferramentas disponíveis em sub-sistemas POSIX. Veja o exemplo a baixo de algumas destas ferramentas:
 
 * ***Arquivo e gestão de projetos*** - ls , find , grep/ack , bash
 * ***Ferramentas de edição de texto*** - vim , awk , type , column
