@@ -37,7 +37,7 @@ Mas, afinal, empresa séria apoiaria este tipo de postura? Bem, o Google está s
 
 > Mas em meu trabalho, sou obrigado a usar Microsoft Windows. Logo tenho que ser neutro, não há alternativas por lá.
 
-Nesse caso, se o seu ambiente de trabalho te obrigam a usar Windows, existe sim uma alternativa. Neste caso é usar máquinas virtuais com a ajuda do bom e velho ***[Vagrant](https://www.vagrantup.com/)***. Se você é o tipo de profissional ou estudante com "mente aberta", está mais do que na hora de experimentar algo novo. No fim das contas, você estará usando um sistema que lhe ajudará a dar passos significativos para melhorar à sua maneira de desenvolver software, estará evitando a pirataria, e descobrindo um novo universo de possibilidades.
+Nesse caso, existe sim uma alternativa. Como por exemplo, o uso de máquinas virtuais com a ajuda do bom e velho ***[Vagrant](https://www.vagrantup.com/)***. Se você é o tipo de profissional ou estudante com "mente aberta", está mais do que na hora de experimentar algo novo. No fim das contas, você estará usando um sistema que lhe ajudará a dar passos significativos para melhorar à sua maneira de desenvolver software, estará evitando a pirataria, e descobrindo um novo universo de possibilidades.
 
 Recomendação:
 <dl>
