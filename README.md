@@ -1,4 +1,4 @@
-lobocode.github.io
+devset.github.io
 =====================
 
 Personal blog.
