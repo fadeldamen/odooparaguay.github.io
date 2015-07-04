@@ -22,25 +22,25 @@ Projetos Autônomos
 Programas, experiências, skills
 ---
 
-Servidores GNU/Linux (todas as distribuições) – Avançado
-Squid/SquidGuard/Iptables/servidor proxy/ – Avançado
-Sistemas Unix ou baseados – Avançado
-Windows 2008 server – Intermediário
-Microsoft Windows Desktop – Intermediário
-Banco de dados SQL server – Intermediário
-Postgresql – Básico
-Virtualbox/Vmware/Virtualização - Intermediário
-Nagios/Zabbix - Intermediário
-Git/Subversion - Avançado
-Python – Intermediário
-Vim/Nano - Avançado
-C – Intermediário
-Bash/Shell Script – Avançado
-Javascript - Intermediário
-Redes - Avançado
-Segurança da informação - Avançado
-Microsoft Office/Libre Office – Básico
-Ferramentas gráficas (Photoshop, Corel, etc..) - Avançado
+* Servidores GNU/Linux (todas as distribuições) – Avançado
+* Squid/SquidGuard/Iptables/servidor proxy/ – Avançado
+* Sistemas Unix ou baseados – Avançado
+* Windows 2008 server – Intermediário
+* Microsoft Windows Desktop – Intermediário
+* Banco de dados SQL server – Intermediário
+* Postgresql – Básico
+* Virtualbox/Vmware/Virtualização - Intermediário
+* Nagios/Zabbix - Intermediário
+* Git/Subversion - Avançado
+* Python – Intermediário
+* Vim/Nano - Avançado
+* C – Intermediário
+* Bash/Shell Script – Avançado
+* Javascript - Intermediário
+* Redes - Avançado
+* Segurança da informação - Avançado
+* Microsoft Office/Libre Office – Básico
+* Ferramentas gráficas (Photoshop, Corel, etc..) - Avançado
 
 
 "A mente que se abre a uma nova idéia jamais voltará ao seu tamanho original".*Albert Einstein*.
