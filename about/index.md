@@ -9,5 +9,9 @@ Antes de um nerd em tecnologia, programação, e análise de sistemas, um artist
 
 Por exemplo, o teaser **[Ivete Stellar e a Pedra da Luz](http://vimeo.com/6151999)** desenvolvido no Studio Cacomotion de Ivete Sangalo na Bahia do qual participei da produção como modelador em 2009, e **[Ronaldinho vs Aliens](https://www.youtube.com/watch?v=u2vd6ts-HsQ)** que fiz a modelagem , rigging e automação em programação Python no ano seguinte. Além deste portfólio - **[https://vitorlobo.carbonmade.com](https://vitorlobo.carbonmade.com)**.
 
+Analista de infraEstrutura apaixonado por software livre e todo seu ecossistema, tenho feito significativas contribuições de sofware, contribuições de tradução, revisão, correção de software, de evangelhização da filosofia livre, e sou usuário e **Embaixador da distribuição GNU/Linux Fedora no Brasil.**
+
+Trabalho com montagem de servidores GNU/Linux, servidor de proxy, de anti-vírus, de arquivos, homologação, desenvolvimento, de impressão, de monitoramento de rede, firewall, controle, restrições e soluções diversas.
+
 
 "A mente que se abre a uma nova idéia jamais voltará ao seu tamanho original".*Albert Einstein*.
