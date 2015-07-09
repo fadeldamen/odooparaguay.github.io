@@ -11,7 +11,10 @@ Por exemplo, o teaser **[Ivete Stellar e a Pedra da Luz](http://vimeo.com/615199
 
 Analista de infraEstrutura apaixonado por software livre e todo seu ecossistema, tenho feito significativas contribuições de sofware, contribuições de tradução, revisão, correção de software, de evangelhização da filosofia livre, e sou usuário e **[Embaixador da distribuição GNU/Linux Fedora no Brasil.](https://fedoraproject.org/wiki/User:Lobocode)**
 
-Trabalho com montagem de servidores GNU/Linux como servidor de proxy, de anti-vírus, de arquivos, homologação, desenvolvimento, de impressão, de monitoramento de rede, firewall, controle, restrições e soluções diversas.
+Todas as decisões tomadas pelas pessoas têm origem nos seus valores e objetivos. Muitos podem ter objetivos e valores diferentes como fama, lucro, amor, sobrevivência, diversão e liberdade são apenas alguns dos valores que uma pessoa pode ter. Quando o objetivo é ajudar aos outros como a si mesmo, **nós chamamos a isso idealismo.**
+
+Meu trabalho com software livre é motivado por um objetivo idealista: espalhar a liberdade e cooperação. Eu quero encorajar a difusão do software livre, substituindo o software proprietário, que proíbe a cooperação, e assim tornando nossa sociedade melhor. Eu torno o meu código disponível para uso em software livre, e não em software proprietário, a fim de encorajar outras pessoas que programam a deixar seu código livre também. Pragmaticamente falando, mantenha-se firme por alguma coisa, ou você cairá por qualquer coisa.
+
 
 
 "A mente que se abre a uma nova idéia jamais voltará ao seu tamanho original".*Albert Einstein*.
