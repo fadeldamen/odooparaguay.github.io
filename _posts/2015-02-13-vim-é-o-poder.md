@@ -134,14 +134,14 @@ Ag é um projeto baseado no **Ack** reescrito em C que por sua vez, é uma alter
 # Instalação e configuração
 Caso você seja usuário de GNU/Linux, basta usar o gerenciador de pacotes padrão do seu sistema e instalar o Vim. Por exemplo,uso o Fedora e por padrão, o Fedora usa o YUM. Neste caso seria ```sudo yum install vim```.Caso use o Mac OsX, é recomendável que se baixe o MacVim. No caso do Windows, é recomendável baixar o Vim no **[site oficial](http://www.vim.org/)**. Ainda existem otimizações, configurações que nós usuários costumeiramente compartilhamos na Internet.
 
-Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/myvim](https://github.com/lobocode/myvim)**.
+Por exemplo, fiz recentemente uma configuração que atende a todas as minhas necessidades dentro do Vim (você também poderá fazer a sua). E para facilitar a instalação e configuração de quem ainda não tem experiência mas que deseja aprender, estudar o VIM, oupara aqueles que já conhecem mas desejam algo já bem moldado, fica a dica : **[https://github.com/lobocode/vimfiles](https://github.com/lobocode/vimfiles)**.
 
 Para instalar basta colar estes três comandos em seu console (terminal):  
 
 {% highlight bash %}
-$ git clone https://github.com/lobocode/myvim.git
-$ cd myvim
-$ sudo ./install                    
+$ git clone https://github.com/lobocode/vimfiles.git
+$ cd vimfiles
+$ ./install                    
 {% endhighlight %}
 
 > Existem muitos usuários que fazem o mesmo. Caso o modo do qual uso não lhe satisfaça, sinta-se a vontade em buscar uma configuração que supra com as suas necessidades. Ou se preferir, poderá montar sua própria configuração.
@@ -153,7 +153,7 @@ doações para órfãos na Uganda através da *[ICCF](http://iccf-holland.org/)*
 ![Vim Uganda](http://www.vim.org/images/vim_drill_small.JPG)
 
 # Complemento
-![Tmux](http://www.periplus.com/image/cache/data/6968/9781934356968-300x400.jpg)
+
 Tmux é um multiplexador de terminal. Isto é, ele nos permite usar um único ambiente para lançar vários terminais, ou janelas, cada uma executando o seu próprio processo ou programa. Por exemplo, podemos carregar o Tmux e carregar o editor de texto Vim ao mesmo tempo. A partir disto podemos
  então criar uma nova janela, carregar um console de banco de dados e alternar entre esses programas todos dentro de uma única sessão.
 
