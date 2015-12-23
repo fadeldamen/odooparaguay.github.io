@@ -1568,7 +1568,7 @@ a:hover {
 }
 #post .highlight,
 #post pre.src {
-  margin-left: -100px;
+  margin-left: -140px;
   margin-bottom: 2em;
   border-left: 60px solid #555753;
   background: #2a2a2a;
