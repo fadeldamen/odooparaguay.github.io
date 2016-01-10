@@ -19,10 +19,12 @@ Meu trabalho com software livre é motivado por um objetivo idealista: espalhar 
 
 "A mente que se abre a uma nova idéia jamais voltará ao seu tamanho original".*Albert Einstein*.
 
-* E-mail: lobocode@gmail.com
-* Facebook: [https://www.facebook.com/lobocode](https://www.facebook.com/lobocode)
-* Skype: vitorlobo21
-* Linkedin: [https://br.linkedin.com/in/vitor-lobo-65797a50](https://br.linkedin.com/in/vitor-lobo-65797a50)
-* IRC: lobocode
-
+<pre>
+E-mail: lobocode@gmail.com
+Facebook: [https://www.facebook.com/lobocode](https://www.facebook.com/lobocode)
+Skype: vitorlobo21
+Linkedin: [https://br.linkedin.com/in/vitor-lobo-65797a50](https://br.linkedin.com/in/vitor-lobo-65797a50)
+IRC: lobocode
+Twitter: @LobocodeLobo
+</pre>
 
