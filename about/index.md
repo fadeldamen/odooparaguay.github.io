@@ -21,10 +21,10 @@ Meu trabalho com software livre é motivado por um objetivo idealista: espalhar 
 
 <pre>
 E-mail: lobocode@gmail.com
-Facebook: [https://www.facebook.com/lobocode](https://www.facebook.com/lobocode)
+Facebook: <a href="https://www.facebook.com/lobocode">www.facebook.com/lobocode</a>
 Skype: vitorlobo21
-Linkedin: [https://br.linkedin.com/in/vitor-lobo-65797a50](https://br.linkedin.com/in/vitor-lobo-65797a50)
+Linkedin: <a href="https://br.linkedin.com/in/vitor-lobo-65797a50">https://br.linkedin.com/in/vitor-lobo-65797a50</a>
 IRC: lobocode
-Twitter: @LobocodeLobo
+Twitter: <a href="https://twitter.com/LobocodeLobo">@LobocodeLobo</a>
 </pre>
 
